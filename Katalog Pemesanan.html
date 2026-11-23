@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pesan Cake & Dekor Ulang Tahun</title>
+<style>
+:root{--bg:#f1f5f2;--ink:#17261d;--muted:#5d6b63;--line:#d3ddd6;--card:#fff;--green:#14532d;--green2:#1c6b3b;--sun:#f2b01e;--err:#b42318}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1a14;--ink:#e8f0ea;--muted:#9bab9f;--line:#27372d;--card:#16231b;--green:#4ade80;--green2:#34c26b;--sun:#f2b01e;--err:#f97066}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Trebuchet MS","Segoe UI",system-ui,sans-serif}
+header{padding:28px 20px 8px;max-width:1000px;margin:0 auto}
+h1{margin:0;font-size:clamp(1.8rem,5vw,2.6rem);line-height:1.1;letter-spacing:-.02em}
+header p{margin:6px 0 0;color:var(--muted);max-width:52ch}
+main{max-width:1000px;margin:0 auto;padding:16px 20px 60px;display:grid;gap:24px;grid-template-columns:1fr}
+@media(min-width:860px){main{grid-template-columns:1.4fr 1fr;align-items:start}}
+h2{font-size:1.15rem;margin:0 0 12px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(190px,1fr))}
+.item{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:4px}
+.item .swatch{height:84px;border-radius:6px;margin-bottom:8px;display:grid;place-items:center;font-size:2.2rem}
+.item b{font-size:1.02rem}
+.item small{color:var(--muted)}
+.price{font-weight:700;color:var(--green);margin-top:2px;font-size:.95rem}
+.qty{display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:10px}
+.qty button{width:34px;height:34px;border-radius:50%;border:1px solid var(--line);background:var(--bg);color:var(--ink);font-size:1.2rem;cursor:pointer}
+.qty button:hover{border-color:var(--green)}
+.qty span{min-width:1.5em;text-align:center;font-weight:700}
+aside{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+@media(min-width:860px){aside{position:sticky;top:16px}}
+#ringkasan{list-style:none;margin:0 0 10px;padding:0;font-size:.95rem}
+#ringkasan li{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dashed var(--line)}
+.kosong{color:var(--muted)}
+.total{display:none;justify-content:space-between;font-weight:700;font-size:1.1rem;margin:6px 0 10px}
+label{display:block;font-weight:600;font-size:.9rem;margin:10px 0 4px}
+input,textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:inherit}
+input:focus,textarea:focus,button:focus-visible{outline:3px solid var(--sun);outline-offset:1px}
+.hint{color:var(--muted);font-size:.82rem;margin:4px 0 0}
+.foto-btn{display:block;text-align:center;padding:12px;border:2px dashed var(--line);border-radius:8px;cursor:pointer;font-weight:600;color:var(--green)}
+.foto-btn:hover{border-color:var(--green)}
+#foto{position:absolute;opacity:0;width:1px;height:1px}
+#foto:focus-visible + .foto-btn{outline:3px solid var(--sun);outline-offset:1px}
+#preview{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+.thumb{position:relative;width:72px;height:72px}
+.thumb img{width:100%;height:100%;object-fit:cover;border-radius:8px;border:1px solid var(--line)}
+.thumb button{position:absolute;top:-6px;right:-6px;width:22px;height:22px;border-radius:50%;border:0;background:var(--err);color:#fff;cursor:pointer;line-height:1;font-size:14px}
+.err{color:var(--err);font-size:.85rem;min-height:1.2em;margin:8px 0 0}
+.kirim{width:100%;margin-top:6px;padding:13px;border:0;border-radius:10px;background:var(--green2);color:#fff;font:inherit;font-weight:700;cursor:pointer}
+.kirim:hover{background:var(--green)}
+@media (prefers-color-scheme:dark){.kirim{color:#06210f}}
+#langkah{display:none;margin-top:14px;padding:14px;border-radius:10px;background:var(--bg);border:1px solid var(--sun)}
+#langkah p{margin:0 0 8px;font-size:.92rem}
+#langkah .kirim{background:var(--sun);color:#222;margin-top:0}
+</style>
+</head>
+<body>
+<header>
+  <h1>Pesan cake & dekor ulang tahun</h1>
+  <p>Pilih desain, isi data, dan lampirkan foto referensi desain yang kamu mau. Pesanan masuk ke WhatsApp kami.</p>
+</header>
+
+<main>
+  <section>
+    <h2>Pilih produk</h2>
+    <div class="grid" id="katalog"></div>
+  </section>
+
+  <aside>
+    <h2>Pesanan kamu</h2>
+    <ul id="ringkasan"></ul>
+    <div class="total" id="totalbox"><span>Total</span><span id="total">Rp0</span></div>
+
+    <label for="nama">Nama</label>
+    <input id="nama" autocomplete="name">
+    <label for="hp">Nomor HP</label>
+    <input id="hp" type="tel" inputmode="tel" autocomplete="tel" placeholder="08123456789">
+    <label for="tgl">Tanggal acara / tanggal ambil</label>
+    <input id="tgl" type="date">
+    <label for="alamat">Alamat pengiriman</label>
+    <textarea id="alamat" rows="3" autocomplete="street-address"></textarea>
+    <label for="catatan">Request desain / catatan</label>
+    <textarea id="catatan" rows="3" placeholder="Contoh: tema dinosaurus, nama Rafi, umur 5, warna biru"></textarea>
+
+    <label for="foto">Foto referensi desain (opsional)</label>
+    <input id="foto" type="file" accept="image/*" multiple>
+    <label for="foto" class="foto-btn" style="margin-top:0">+ Tambah foto</label>
+    <p class="hint">Maksimal 3 foto, masing-masing di bawah 20 MB.</p>
+    <div id="preview"></div>
+
+    <p class="err" id="err" role="alert"></p>
+    <button class="kirim" id="kirim" type="button">Kirim pesanan ke WhatsApp</button>
+
+    <div id="langkah">
+      <p><b>Langkah terakhir:</b> WhatsApp tidak bisa menerima foto otomatis dari web. Kirim foto referensimu di chat yang baru terbuka.</p>
+      <p id="langkah-info"></p>
+      <button class="kirim" id="bagikan" type="button" style="display:none">Bagikan foto ke WhatsApp</button>
+    </div>
+  </aside>
+</main>
+
+<script>
+const NOMOR_WA = "6281234567890"; 
+const PRODUK = [
+  {id:1, nama:"Desain Boys", ket:"Tema anak laki-laki", harga:0, ikon:"🚀", warna:"#d0e2f2"},
+  {id:2, nama:"Desain Girls", ket:"Tema anak perempuan", harga:0, ikon:"🦄", warna:"#f4cccc"},
+  {id:3, nama:"Klasik Cake", ket:"Cake klasik polos", harga:0, ikon:"🎂", warna:"#fce8b2"},
+  {id:4, nama:"Desain Duck", ket:"Tema bebek", harga:0, ikon:"🦆", warna:"#fff2a8"},
+  {id:5, nama:"Dekor Ulang Tahun", ket:"Dekorasi pesta", harga:0, ikon:"🎈", warna:"#d9ead3"}
+];
+const MAX_FOTO = 3, MAX_MB = 20;
+// =============================
+
+const rp = n => "Rp" + n.toLocaleString("id-ID");
+const $ = id => document.getElementById(id);
+const jumlah = {};
+let foto = [];
+
+$("katalog").innerHTML = PRODUK.map(p => `
+  <div class="item">
+    <div class="swatch" style="background:${p.warna}">${p.ikon}</div>
+    <b>${p.nama}</b><small>${p.ket}</small>
+    <span class="price">${p.harga ? rp(p.harga) : "Harga sesuai request"}</span>
+    <div class="qty">
+      <button type="button" aria-label="Kurangi ${p.nama}" data-id="${p.id}" data-d="-1">−</button>
+      <span id="q${p.id}">0</span>
+      <button type="button" aria-label="Tambah ${p.nama}" data-id="${p.id}" data-d="1">+</button>
+    </div>
+  </div>`).join("");
+
+function hitung(){
+  const dipilih = PRODUK.filter(p => jumlah[p.id] > 0);
+  $("ringkasan").innerHTML = dipilih.length
+    ? dipilih.map(p => `<li><span>${jumlah[p.id]} × ${p.nama}</span><span>${p.harga ? rp(jumlah[p.id]*p.harga) : ""}</span></li>`).join("")
+    : '<li class="kosong">Belum ada produk dipilih.</li>';
+  const total = dipilih.reduce((s,p) => s + jumlah[p.id]*p.harga, 0);
+  $("totalbox").style.display = total > 0 ? "flex" : "none";
+  $("total").textContent = rp(total);
+  return {dipilih, total};
+}
+
+$("katalog").addEventListener("click", e => {
+  const b = e.target.closest("button[data-id]");
+  if(!b) return;
+  const id = +b.dataset.id;
+  jumlah[id] = Math.max(0, (jumlah[id]||0) + +b.dataset.d);
+  $("q"+id).textContent = jumlah[id];
+  hitung();
+});
+
+function gambarPreview(){
+  $("preview").innerHTML = "";
+  foto.forEach((f, i) => {
+    const d = document.createElement("div");
+    d.className = "thumb";
+    const img = document.createElement("img");
+    img.alt = "Foto referensi " + (i+1);
+    img.src = URL.createObjectURL(f);
+    const x = document.createElement("button");
+    x.type = "button"; x.textContent = "×"; x.setAttribute("aria-label", "Hapus foto " + (i+1));
+    x.onclick = () => { foto.splice(i,1); gambarPreview(); };
+    d.append(img, x);
+    $("preview").append(d);
+  });
+}
+
+$("foto").addEventListener("change", e => {
+  let pesan = "";
+  for(const f of e.target.files){
+    if(foto.length >= MAX_FOTO){ pesan = `Maksimal ${MAX_FOTO} foto.`; break; }
+    if(!f.type.startsWith("image/")){ pesan = "Hanya file gambar yang bisa dilampirkan."; continue; }
+    if(f.size > MAX_MB*1024*1024){ pesan = `Foto "${f.name}" lebih dari ${MAX_MB} MB.`; continue; }
+    foto.push(f);
+  }
+  e.target.value = "";
+  $("err").textContent = pesan;
+  gambarPreview();
+});
+
+let teksPesanan = "";
+
+$("kirim").addEventListener("click", () => {
+  const {dipilih, total} = hitung();
+  const nama = $("nama").value.trim(), hp = $("hp").value.trim(), alamat = $("alamat").value.trim(),
+        catatan = $("catatan").value.trim(), tgl = $("tgl").value;
+  let pesan = "";
+  if(!dipilih.length) pesan = "Pilih minimal satu produk dulu.";
+  else if(!nama) pesan = "Isi nama kamu.";
+  else if(!/^[0-9+\s-]{8,}$/.test(hp)) pesan = "Isi nomor HP yang valid.";
+  else if(!alamat) pesan = "Isi alamat pengiriman.";
+  $("err").textContent = pesan;
+  if(pesan) return;
+
+  const baris = dipilih.map(p => `- ${jumlah[p.id]} x ${p.nama}` + (p.harga ? ` = ${rp(jumlah[p.id]*p.harga)}` : "")).join("\n");
+  teksPesanan = `Halo, saya mau pesan:\n\n${baris}\n` + (total ? `\nTotal: ${rp(total)}\n` : "") +
+    `\nNama: ${nama}\nNo. HP: ${hp}\nAlamat: ${alamat}` +
+    (tgl ? `\nTanggal: ${new Date(tgl+"T00:00").toLocaleDateString("id-ID",{day:"numeric",month:"long",year:"numeric"})}` : "") +
+    (catatan ? `\nRequest desain: ${catatan}` : "") +
+    (foto.length ? `\n\nFoto referensi: ${foto.length} foto, saya kirim di chat ini setelah pesan.` : "");
+
+  window.open(`https://wa.me/${6285133222166}?text=${encodeURIComponent(teksPesanan)}`, "_blank");
+
+  if(foto.length){
+    $("langkah").style.display = "block";
+    const bisaBagi = navigator.canShare && navigator.canShare({files: foto});
+    $("bagikan").style.display = bisaBagi ? "block" : "none";
+    $("langkah-info").textContent = bisaBagi
+      ? "Atau tekan tombol di bawah, lalu pilih WhatsApp dan chat kami."
+      : "Di WhatsApp, tekan ikon lampiran, pilih galeri, lalu kirim foto yang sama.";
+  } else {
+    $("langkah").style.display = "none";
+  }
+});
+
+$("bagikan").addEventListener("click", async () => {
+  try{ await navigator.share({files: foto, text: teksPesanan}); }
+  catch(e){ /* dibatalkan pelanggan */ }
+});
+
+hitung();
+</script>
+</body>
+</html>
