@@ -1,0 +1,457 @@
+{
+  "program": {
+    "title": "8-Week Transformation Coaching",
+    "content": "A complete 8-week coaching journey to help clients clarify their goals, overcome obstacles, and create lasting change. This sample program showcases AllCoach's core features — sections, interactive activities, and session scheduling. Edit or delete it to start building your own.",
+    "status": "draft",
+    "meta": {
+      "_program_duration_value": 8,
+      "_program_duration_unit": "weeks",
+      "_program_price_amount": 497,
+      "_program_max_enrollments": 0,
+      "_program_is_active": 0
+    }
+  },
+  "sections": [
+    {
+      "key": "foundation",
+      "title": "Foundation & Goal Setting",
+      "position": 0
+    },
+    {
+      "key": "mindset",
+      "title": "Mindset & Growth",
+      "position": 1
+    },
+    {
+      "key": "action",
+      "title": "Action & Accountability",
+      "position": 2
+    }
+  ],
+  "activities": [
+    {
+      "section": "foundation",
+      "week": 1,
+      "day": 1,
+      "position": 0,
+      "schema": {
+        "version": "2.0",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Welcome! This first activity helps your coach understand where you are starting from and what matters most to you. Take a few minutes to answer honestly — there are no right or wrong answers."
+                }
+              ]
+            },
+            {
+              "type": "shortAnswer",
+              "attrs": {
+                "label": "What inspired you to start coaching, and what do you hope to achieve?",
+                "required": true
+              }
+            },
+            {
+              "type": "multipleChoice",
+              "attrs": {
+                "label": "How would you rate your current overall life satisfaction?",
+                "required": true,
+                "options": [
+                  {
+                    "label": "1 - Very unsatisfied"
+                  },
+                  {
+                    "label": "2 - Unsatisfied"
+                  },
+                  {
+                    "label": "3 - Neutral"
+                  },
+                  {
+                    "label": "4 - Satisfied"
+                  },
+                  {
+                    "label": "5 - Very satisfied"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "longAnswer",
+              "attrs": {
+                "label": "Is there anything specific you'd like your coach to know before your first session?",
+                "required": false,
+                "placeholder": "Share any context, concerns, or background that would be helpful…"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section": "foundation",
+      "week": 1,
+      "day": 2,
+      "position": 1,
+      "schema": {
+        "version": "2.0",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Clear goals are the foundation of effective coaching. Use this worksheet to define what success looks like for you by the end of this program."
+                }
+              ]
+            },
+            {
+              "type": "longAnswer",
+              "attrs": {
+                "label": "Describe your ideal life 8 weeks from now. What has changed?",
+                "required": true,
+                "placeholder": "Be as specific and vivid as possible…"
+              }
+            },
+            {
+              "type": "shortAnswer",
+              "attrs": {
+                "label": "What is your single most important goal for this program?",
+                "required": true
+              }
+            },
+            {
+              "type": "shortAnswer",
+              "attrs": {
+                "label": "How will you know when you have achieved it? What does success look like?",
+                "required": true
+              }
+            },
+            {
+              "type": "checkbox",
+              "attrs": {
+                "label": "Which life areas are you focusing on in this program? (Select all that apply)",
+                "required": false,
+                "options": [
+                  {
+                    "label": "Career & Business"
+                  },
+                  {
+                    "label": "Health & Fitness"
+                  },
+                  {
+                    "label": "Relationships"
+                  },
+                  {
+                    "label": "Mindset & Personal Growth"
+                  },
+                  {
+                    "label": "Finances"
+                  },
+                  {
+                    "label": "Creativity & Hobbies"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section": "mindset",
+      "week": 3,
+      "day": 1,
+      "position": 0,
+      "schema": {
+        "version": "2.0",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Mindset shapes everything. Before we go deeper, let's check in on where your head is at and identify any patterns that may be holding you back."
+                }
+              ]
+            },
+            {
+              "type": "multipleChoice",
+              "attrs": {
+                "label": "How would you describe your current mindset going into this week?",
+                "required": true,
+                "options": [
+                  {
+                    "label": "Energized and motivated"
+                  },
+                  {
+                    "label": "Cautiously optimistic"
+                  },
+                  {
+                    "label": "Uncertain but trying"
+                  },
+                  {
+                    "label": "Struggling to stay focused"
+                  },
+                  {
+                    "label": "Overwhelmed"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "checkbox",
+              "attrs": {
+                "label": "Which of these limiting beliefs do you sometimes catch yourself thinking? (Select all that apply)",
+                "required": false,
+                "options": [
+                  {
+                    "label": "I'm not good enough."
+                  },
+                  {
+                    "label": "I don't have enough time."
+                  },
+                  {
+                    "label": "I'm not sure I deserve this."
+                  },
+                  {
+                    "label": "What if I fail?"
+                  },
+                  {
+                    "label": "Other people have it easier."
+                  },
+                  {
+                    "label": "None of the above"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "longAnswer",
+              "attrs": {
+                "label": "Choose one limiting belief from above and write a reframe — a more empowering way to think about it.",
+                "required": false,
+                "placeholder": "e.g. I don't have time → I choose how I spend my time and I am investing in myself."
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section": "mindset",
+      "week": 3,
+      "day": 3,
+      "position": 1,
+      "schema": {
+        "version": "2.0",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Every meaningful goal has obstacles. Naming them is the first step to moving through them. Use this exercise to bring clarity to what is standing in your way."
+                }
+              ]
+            },
+            {
+              "type": "longAnswer",
+              "attrs": {
+                "label": "What is the biggest obstacle standing between you and your main goal right now?",
+                "required": true,
+                "placeholder": "Describe it as fully as you can…"
+              }
+            },
+            {
+              "type": "multipleChoice",
+              "attrs": {
+                "label": "Is this obstacle mainly internal (mindset, habits) or external (circumstances, resources)?",
+                "required": true,
+                "options": [
+                  {
+                    "label": "Mainly internal"
+                  },
+                  {
+                    "label": "Mainly external"
+                  },
+                  {
+                    "label": "A mix of both"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "shortAnswer",
+              "attrs": {
+                "label": "What is one small step you could take this week to begin moving past this obstacle?",
+                "required": true
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section": "action",
+      "week": 5,
+      "day": 1,
+      "position": 0,
+      "schema": {
+        "version": "2.0",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Intentions become results when paired with a concrete plan. Fill in your action plan for this week and share it with your coach before your session."
+                }
+              ]
+            },
+            {
+              "type": "shortAnswer",
+              "attrs": {
+                "label": "This week I will… (describe your primary commitment)",
+                "required": true
+              }
+            },
+            {
+              "type": "shortAnswer",
+              "attrs": {
+                "label": "The potential obstacle I anticipate is…",
+                "required": false
+              }
+            },
+            {
+              "type": "shortAnswer",
+              "attrs": {
+                "label": "If that happens, my plan B is…",
+                "required": false
+              }
+            },
+            {
+              "type": "date",
+              "attrs": {
+                "label": "I commit to completing this by:",
+                "required": true
+              }
+            },
+            {
+              "type": "multipleChoice",
+              "attrs": {
+                "label": "On a scale of 1-5, how confident are you that you will follow through this week?",
+                "required": true,
+                "options": [
+                  {
+                    "label": "1 - Not confident"
+                  },
+                  {
+                    "label": "2 - Slightly confident"
+                  },
+                  {
+                    "label": "3 - Fairly confident"
+                  },
+                  {
+                    "label": "4 - Confident"
+                  },
+                  {
+                    "label": "5 - Fully committed"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "section": "action",
+      "week": 6,
+      "day": 1,
+      "position": 1,
+      "schema": {
+        "version": "2.0",
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "You are halfway through. This reflection helps you acknowledge your progress, course-correct if needed, and set the tone for the second half of the program."
+                }
+              ]
+            },
+            {
+              "type": "multipleChoice",
+              "attrs": {
+                "label": "Overall, how is this coaching program going for you so far?",
+                "required": true,
+                "options": [
+                  {
+                    "label": "Exceeding my expectations"
+                  },
+                  {
+                    "label": "Going well"
+                  },
+                  {
+                    "label": "Mixed — some good, some challenging"
+                  },
+                  {
+                    "label": "Slower progress than I hoped"
+                  },
+                  {
+                    "label": "I need to recommit"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "longAnswer",
+              "attrs": {
+                "label": "What has been your biggest win or breakthrough in the first half of this program?",
+                "required": true,
+                "placeholder": "It doesn't have to be dramatic — small shifts count…"
+              }
+            },
+            {
+              "type": "longAnswer",
+              "attrs": {
+                "label": "What would you like to focus on or do differently in the remaining weeks?",
+                "required": true,
+                "placeholder": "Think about what would make the second half of this program most valuable for you…"
+              }
+            },
+            {
+              "type": "shortAnswer",
+              "attrs": {
+                "label": "If you could ask your coach one thing right now, what would it be?",
+                "required": false
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "sessions": [
+    {
+      "duration_minutes": 60,
+      "repetition_count": 8,
+      "position": 0
+    }
+  ]
+}

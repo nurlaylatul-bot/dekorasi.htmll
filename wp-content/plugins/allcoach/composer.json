@@ -1,0 +1,51 @@
+{
+  "name": "allcoach/allcoach",
+  "description": "A comprehensive coaching management solution for WordPress",
+  "autoload": {
+    "psr-4": {
+      "AllCoach\\": "src/"
+    },
+    "files": [
+      "src/Support/helpers.php",
+      "vendor/themegrill/themegrill-sdk/load.php"
+    ]
+  },
+  "require": {
+    "php-di/php-di": "^7.0",
+    "psr/log": "^3.0",
+    "nesbot/carbon": "^3.11",
+    "woocommerce/action-scheduler": "^3.9",
+    "google/apiclient": "^2.19",
+    "google/auth": "^1.50",
+    "themegrill/themegrill-sdk": "dev-main"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.11",
+    "wp-coding-standards/wpcs": "^3.1",
+    "phpcsstandards/phpcsutils": "^1.0",
+    "phpcsstandards/phpcsextra": "^1.2",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "wp-cli/wp-cli": "^2.11"
+  },
+  "scripts": {
+    "lint": "phpcs",
+    "lint:fix": "phpcbf",
+    "post-install-cmd": [
+      "Google\\Task\\Composer::cleanup"
+    ],
+    "post-update-cmd": [
+      "Google\\Task\\Composer::cleanup"
+    ]
+  },
+  "extra": {
+    "google/apiclient-services": [
+      "Calendar",
+      "Oauth2"
+    ]
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

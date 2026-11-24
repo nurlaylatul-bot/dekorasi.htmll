@@ -1,0 +1,178 @@
+{
+  "$schema": "https://schemas.wp.org/wp/6.8/theme.json",
+  "version": 3,
+  "title": "Sky Blue & Pink",
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#3A6BD8",
+          "name": "Primary"
+        },
+        {
+          "slug": "primary-dark",
+          "color": "#2A3190",
+          "name": "Primary Dark"
+        },
+        {
+          "slug": "primary-light",
+          "color": "#6F96EA",
+          "name": "Primary Light"
+        },
+        {
+          "slug": "primary-soft",
+          "color": "#EAF1FD",
+          "name": "Primary Soft"
+        },
+        {
+          "slug": "accent",
+          "color": "#D94C86",
+          "name": "Accent Pink"
+        },
+        {
+          "slug": "accent-soft",
+          "color": "#FDEBF3",
+          "name": "Accent Pink Soft"
+        },
+        {
+          "slug": "pink-soft",
+          "color": "#FADCE8",
+          "name": "Pink Section"
+        },
+        {
+          "slug": "blue-soft",
+          "color": "#E1EBFB",
+          "name": "Blue Section"
+        },
+        {
+          "slug": "heading-text",
+          "color": "#14213D",
+          "name": "Text Dark"
+        },
+        {
+          "slug": "paragraph-text",
+          "color": "#4F5D78",
+          "name": "Text Light"
+        },
+        {
+          "slug": "muted-text",
+          "color": "#5C6985",
+          "name": "Muted Text"
+        },
+        {
+          "slug": "white",
+          "color": "#FFFFFF",
+          "name": "White"
+        },
+        {
+          "slug": "background-light",
+          "color": "#F8FAFF",
+          "name": "Background Light"
+        },
+        {
+          "slug": "background-dark",
+          "color": "#EEF3FD",
+          "name": "Background Dark"
+        },
+        {
+          "slug": "border",
+          "color": "#E1E8F6",
+          "name": "Border"
+        },
+        {
+          "slug": "base",
+          "color": "#FFFFFF",
+          "name": "Base"
+        },
+        {
+          "slug": "cream",
+          "color": "#F8FAFF",
+          "name": "Cream"
+        },
+        {
+          "slug": "surface",
+          "color": "#EEF3FD",
+          "name": "Surface"
+        },
+        {
+          "slug": "rule",
+          "color": "#E1E8F6",
+          "name": "Rule"
+        },
+        {
+          "slug": "muted",
+          "color": "#5C6985",
+          "name": "Muted"
+        },
+        {
+          "slug": "ink",
+          "color": "#14213D",
+          "name": "Ink"
+        },
+        {
+          "slug": "ink-2",
+          "color": "#14213D",
+          "name": "Ink 2"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--background-light)",
+      "text": "var(--wp--preset--color--heading-text)"
+    },
+    "elements": {
+      "h1": {
+        "color": {
+          "text": "var(--wp--preset--color--heading-text)"
+        }
+      },
+      "h2": {
+        "color": {
+          "text": "var(--wp--preset--color--heading-text)"
+        }
+      },
+      "h3": {
+        "color": {
+          "text": "var(--wp--preset--color--heading-text)"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--primary)"
+        }
+      },
+      "button": {
+        "color": {
+          "background": "var(--wp--preset--color--primary)",
+          "text": "var(--wp--preset--color--white)"
+        },
+        ":hover": {
+          "color": {
+            "background": "var(--wp--preset--color--primary-dark)",
+            "text": "var(--wp--preset--color--white)"
+          }
+        }
+      }
+    },
+    "blocks": {
+      "core/button": {
+        "color": {
+          "background": "var:preset|color|primary",
+          "text": "var:preset|color|white"
+        },
+        ":hover": {
+          "color": {
+            "background": "var:preset|color|primary-dark",
+            "text": "var:preset|color|white"
+          }
+        }
+      }
+    },
+    "border": {
+      "color": "var:preset|color|border"
+    }
+  }
+}

@@ -1,0 +1,4717 @@
+# Copyright (C) 2026 ThemeGrill
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: AllCoach - Coaching Management & Scheduling 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/allcoach\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-05T10:04:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: allcoach\n"
+
+#. Plugin Name of the plugin
+#: allcoach.php
+msgid "AllCoach - Coaching Management & Scheduling"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: allcoach.php
+msgid "https://allcoach.io"
+msgstr ""
+
+#. Description of the plugin
+#: allcoach.php
+msgid "The all-in-one coaching management plugin. Manage programs, clients, appointments, and orders — all from your WordPress dashboard."
+msgstr ""
+
+#. Author of the plugin
+#: allcoach.php
+msgid "ThemeGrill"
+msgstr ""
+
+#. Author URI of the plugin
+#: allcoach.php
+msgid "https://themegrill.com"
+msgstr ""
+
+#: src/Admin/AdminServiceProvider.php:50
+msgid "AllCoach"
+msgstr ""
+
+#: src/Admin/AdminServiceProvider.php:67
+#: src/Admin/AdminServiceProvider.php:68
+#: resources/build/admin.js:1
+msgid "Analytics"
+msgstr ""
+
+#: src/Admin/AdminServiceProvider.php:78
+#: src/Admin/AdminServiceProvider.php:79
+#: src/Infrastructure/PostTypes/Program.php:17
+#: src/Infrastructure/PostTypes/Program.php:19
+#: resources/build/admin.js:1
+#: resources/build/admin.js:12
+msgid "Programs"
+msgstr ""
+
+#: src/Admin/AdminServiceProvider.php:91
+#: src/Admin/AdminServiceProvider.php:93
+#: resources/build/admin.js:1
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Clients"
+msgstr ""
+
+#. translators: %d: Number of new clients.
+#: src/Admin/AdminServiceProvider.php:97
+msgid "%d new client"
+msgid_plural "%d new clients"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/AdminServiceProvider.php:110
+#: src/Admin/AdminServiceProvider.php:111
+#: resources/build/admin.js:1
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Appointments"
+msgstr ""
+
+#: src/Admin/AdminServiceProvider.php:123
+#: src/Admin/AdminServiceProvider.php:125
+#: resources/build/admin.js:1
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Orders"
+msgstr ""
+
+#. translators: %d: Number of pending orders.
+#: src/Admin/AdminServiceProvider.php:129
+msgid "%d pending order"
+msgid_plural "%d pending orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/AdminServiceProvider.php:142
+#: src/Admin/AdminServiceProvider.php:143
+#: resources/build/admin.js:1
+#: resources/build/admin.js:12
+msgid "Settings"
+msgstr ""
+
+#: src/Admin/AdminServiceProvider.php:169
+#: src/Admin/AdminServiceProvider.php:170
+#: resources/build/admin.js:1
+msgid "Add-ons"
+msgstr ""
+
+#: src/API/BulkActionsTrait.php:44
+msgid "The bulk action to perform."
+msgstr ""
+
+#: src/API/BulkActionsTrait.php:52
+msgid "Array of resource IDs to act on."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:45
+msgid "Filter by week number."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:60
+#: src/API/Controllers/V1/ActivitiesController.php:68
+#: src/API/Controllers/V1/ActivitiesController.php:76
+#: src/API/Controllers/V1/ActivitiesController.php:92
+msgid "Activity ID."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:95
+msgid "Enrollment ID for which this activity is being completed."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:100
+msgid "Client response/submission data."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:125
+#: src/API/Controllers/V1/ActivitiesController.php:147
+#: src/API/Controllers/V1/AvailabilitiesController.php:101
+#: src/API/Controllers/V1/AvailabilitiesController.php:119
+#: src/API/Controllers/V1/ClientBookingController.php:66
+#: src/API/Controllers/V1/SessionBookingsController.php:317
+msgid "Enrollment ID."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:161
+#: src/API/Controllers/V1/OrdersController.php:920
+#: src/API/Controllers/V1/SectionsController.php:170
+#: src/API/Controllers/V1/SessionBookingsController.php:334
+msgid "Program ID."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:173
+#: src/API/Controllers/V1/SectionsController.php:206
+msgid "Activity Library template ID. When provided, the schema is copied from the library item. Omit for a custom one-off activity."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:177
+#: src/API/Controllers/V1/SectionsController.php:210
+msgid "JSON-encoded ActivitySchema for a custom activity (required when template_id is omitted)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:185
+msgid "Per-instance configuration overriding the base schema (e.g. custom labels, visibility rules)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:201
+#: src/API/Controllers/V1/ActivitiesController.php:269
+msgid "Per-instance configuration."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:208
+msgid "Updated activity schema (fields)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:221
+msgid "Week number this activity falls in (1-based)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:227
+msgid "Day within the week (1 = Monday … 7 = Sunday)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:233
+msgid "Display order within the same day (0-based)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:246
+#: src/API/Controllers/V1/AvailabilitiesController.php:311
+#: src/API/Controllers/V1/ClientsController.php:229
+#: src/API/Controllers/V1/CoachesController.php:150
+#: src/API/Controllers/V1/LibraryActivitiesController.php:180
+#: src/API/Controllers/V1/ProgramsController.php:555
+#: src/API/Controllers/V1/SessionBookingsController.php:311
+msgid "Unique identifier."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:252
+msgid "ID of the parent program."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:258
+msgid "Library template ID, or null for a custom activity."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:264
+msgid "Snapshotted ActivitySchema at the time this activity was added to the program."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:274
+msgid "Week number (1-based)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:280
+msgid "Day of week (1–7)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:287
+msgid "Display order within the same day."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:293
+#: src/API/Controllers/V1/ClientsController.php:277
+#: src/API/Controllers/V1/LibraryActivitiesController.php:232
+#: src/API/Controllers/V1/OrdersController.php:1035
+#: src/API/Controllers/V1/ProgramsController.php:653
+#: src/API/Controllers/V1/SessionBookingsController.php:393
+msgid "Creation date (ISO 8601)."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:328
+#: src/API/Controllers/V1/ActivitiesController.php:420
+#: src/API/Controllers/V1/ActivitiesController.php:460
+#: src/API/Controllers/V1/ActivitiesController.php:483
+#: src/API/Controllers/V1/ClientBookingController.php:151
+#: src/API/Controllers/V1/ProgramsController.php:232
+#: src/API/Controllers/V1/ProgramsController.php:282
+#: src/API/Controllers/V1/ProgramsController.php:362
+#: src/API/Controllers/V1/SectionsController.php:232
+#: src/API/Controllers/V1/SectionsController.php:273
+#: src/API/Controllers/V1/SectionsController.php:292
+#: src/API/Controllers/V1/SectionsController.php:339
+#: src/API/Controllers/V1/SectionsController.php:366
+#: src/API/Controllers/V1/SectionsController.php:402
+#: src/API/Controllers/V1/SectionsController.php:427
+#: src/Application/Booking/BookSessionService.php:112
+#: src/Application/Order/CreateOrderService.php:49
+#: src/Frontend/Controllers/BookingController.php:124
+#: src/Frontend/Controllers/DashboardController.php:83
+#: src/Frontend/FrontendServiceProvider.php:265
+#: src/Infrastructure/PostTypes/Program.php:18
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:103
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:132
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:169
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:198
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Program"
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:401
+#: src/API/Controllers/V1/LibraryActivitiesController.php:397
+#: resources/build/admin.js:12
+msgid "Failed to delete activity."
+msgstr ""
+
+#: src/API/Controllers/V1/ActivitiesController.php:425
+#: src/API/Controllers/V1/ActivitiesController.php:429
+#: src/API/Controllers/V1/LibraryActivitiesController.php:296
+#: src/API/Controllers/V1/LibraryActivitiesController.php:355
+#: src/API/Controllers/V1/LibraryActivitiesController.php:389
+#: src/Application/Activity/CompleteActivityService.php:49
+#: src/Frontend/Controllers/ActivityController.php:71
+#: src/Infrastructure/PostTypes/Activity.php:19
+msgid "Activity"
+msgstr ""
+
+#: src/API/Controllers/V1/AnalyticsController.php:39
+msgid "Range start date (YYYY-MM-DD)."
+msgstr ""
+
+#: src/API/Controllers/V1/AnalyticsController.php:42
+msgid "Range end date (YYYY-MM-DD)."
+msgstr ""
+
+#: src/API/Controllers/V1/AnalyticsPreferencesController.php:55
+msgid "Metric shown in each KPI card slot."
+msgstr ""
+
+#: src/API/Controllers/V1/AnalyticsPreferencesController.php:63
+msgid "Which metric the overview chart is focused on."
+msgstr ""
+
+#: src/API/Controllers/V1/AnalyticsPreferencesController.php:67
+msgid "Breakdown shown in each donut slot."
+msgstr ""
+
+#: src/API/Controllers/V1/AuthController.php:33
+msgid "Username or email."
+msgstr ""
+
+#: src/API/Controllers/V1/AuthController.php:37
+msgid "Account password."
+msgstr ""
+
+#: src/API/Controllers/V1/AuthController.php:44
+msgid "Expected role for this login (client or coach)."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:123
+#: src/API/Controllers/V1/ClientBookingController.php:71
+msgid "Date in Y-m-d format."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:159
+msgid "Filter by user (coach/admin) ID. Omit for current user."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:172
+msgid "User (coach/admin) ID. Omit for current user."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:173
+#: src/API/Controllers/V1/AvailabilitiesController.php:322
+msgid "Start date (Y-m-d)."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:175
+msgid "Shift details (start_time, end_time, repeat options). Can be used instead of flat keys."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:182
+msgid "Start time (e.g. 9:00 AM or 09:00)."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:183
+#: src/API/Controllers/V1/AvailabilitiesController.php:332
+msgid "End time."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:184
+msgid "Whether the shift repeats weekly."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:185
+#: src/API/Controllers/V1/AvailabilitiesController.php:342
+msgid "Repeat every N weeks."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:186
+msgid "Repeat on Sunday."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:187
+msgid "Repeat on Monday."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:188
+msgid "Repeat on Tuesday."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:189
+msgid "Repeat on Wednesday."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:190
+msgid "Repeat on Thursday."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:191
+msgid "Repeat on Friday."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:192
+msgid "Repeat on Saturday."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:193
+#: src/API/Controllers/V1/AvailabilitiesController.php:375
+msgid "Whether this availability is limited to specific programs."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:195
+msgid "Program IDs when is_program_specific is true (e.g. shift[program_ids][])."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:223
+#: src/API/Controllers/V1/AvailabilitiesController.php:268
+msgid "user_id is required or you must be logged in."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:252
+#: src/Application/Availability/DeleteAvailabilityService.php:26
+#: src/Application/Availability/UpdateAvailabilityService.php:27
+#: src/Infrastructure/PostTypes/Availability.php:19
+#: resources/build/admin.js:1
+#: resources/build/admin.js:12
+msgid "Availability"
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:271
+msgid "start_date are required (can be sent in shift object)."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:317
+msgid "User (coach/admin) ID."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:327
+msgid "Start time."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:337
+msgid "Whether the shift repeats."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:380
+msgid "Program IDs when is_program_specific is true."
+msgstr ""
+
+#: src/API/Controllers/V1/AvailabilitiesController.php:386
+#: src/API/Controllers/V1/CoachesController.php:178
+msgid "Creation date."
+msgstr ""
+
+#: src/API/Controllers/V1/CartController.php:54
+msgid "Program to add to cart."
+msgstr ""
+
+#: src/API/Controllers/V1/CartController.php:73
+msgid "Cart item ID."
+msgstr ""
+
+#: src/API/Controllers/V1/CartController.php:106
+msgid "Cart item"
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:47
+msgid "Enrollment ID to fetch slots for."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:89
+#: src/API/Controllers/V1/SessionBookingsController.php:279
+msgid "Enrollment to schedule a session for."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:94
+#: src/API/Controllers/V1/SessionBookingsController.php:284
+msgid "Session date (YYYY-MM-DD)."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:98
+#: src/API/Controllers/V1/SessionBookingsController.php:288
+msgid "Session start time (HH:MM, 24-hour)."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:102
+#: src/API/Controllers/V1/SessionBookingsController.php:292
+msgid "Session end time (HH:MM, 24-hour)."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:106
+#: src/API/Controllers/V1/ClientProfileController.php:46
+msgid "Client timezone (IANA identifier, e.g. America/New_York)."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:109
+msgid "Optional note from the client about this session."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:127
+msgid "Session booking ID to cancel."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:142
+#: src/API/Controllers/V1/ClientBookingController.php:189
+#: src/API/Controllers/V1/ClientBookingController.php:284
+#: src/Application/Order/CancelOrderService.php:41
+#: src/Application/Order/ReactivateOrderService.php:43
+msgid "Enrollment"
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:146
+#: src/API/Controllers/V1/ClientBookingController.php:193
+msgid "This enrollment is not active."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:156
+#: src/Application/Booking/BookSessionService.php:118
+msgid "This program does not have session configuration."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:161
+#: src/Application/Booking/BookSessionService.php:134
+msgid "This program does not have an assigned coach."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientBookingController.php:302
+#: src/API/Controllers/V1/SessionBookingsController.php:207
+#: src/Application/Booking/CancelSessionBookingService.php:28
+#: src/Application/Booking/CompleteSessionService.php:38
+msgid "Session booking"
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:34
+#: src/API/Controllers/V1/ClientsController.php:235
+#: src/API/Controllers/V1/OrdersController.php:198
+msgid "Client first name."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:37
+#: src/API/Controllers/V1/ClientsController.php:240
+#: src/API/Controllers/V1/OrdersController.php:203
+msgid "Client last name."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:40
+#: src/API/Controllers/V1/ClientsController.php:251
+msgid "Client email."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:43
+#: src/API/Controllers/V1/ClientsController.php:257
+#: src/API/Controllers/V1/OrdersController.php:216
+msgid "Client phone number."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:63
+msgid "Current password."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:67
+msgid "New password."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:71
+msgid "Confirm new password."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:104
+msgid "Profile updated successfully."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:117
+msgid "Current password is incorrect."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:121
+msgid "New password must be at least 8 characters."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:125
+#: src/Application/Auth/ResetPasswordService.php:29
+msgid "Passwords do not match."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientProfileController.php:134
+msgid "Password updated successfully."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientsController.php:47
+msgid "Search by name or email."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientsController.php:245
+msgid "Client full name."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientsController.php:262
+msgid "Client timezone (IANA, e.g. America/New_York)."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientsController.php:267
+msgid "Client status."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientsController.php:272
+msgid "Internal notes."
+msgstr ""
+
+#: src/API/Controllers/V1/ClientsController.php:284
+#: src/API/Controllers/V1/LibraryActivitiesController.php:239
+#: src/API/Controllers/V1/OrdersController.php:1042
+#: src/API/Controllers/V1/ProgramsController.php:660
+#: src/API/Controllers/V1/SessionBookingsController.php:400
+msgid "Last update date (ISO 8601)."
+msgstr ""
+
+#: src/API/Controllers/V1/CoachesController.php:42
+msgid "Search coaches by name or email."
+msgstr ""
+
+#: src/API/Controllers/V1/CoachesController.php:156
+msgid "WordPress user ID."
+msgstr ""
+
+#: src/API/Controllers/V1/CoachesController.php:162
+msgid "Coach name."
+msgstr ""
+
+#: src/API/Controllers/V1/CoachesController.php:167
+msgid "Coach email."
+msgstr ""
+
+#: src/API/Controllers/V1/CoachesController.php:173
+msgid "Coach bio."
+msgstr ""
+
+#: src/API/Controllers/V1/CoachesController.php:184
+msgid "Last update date."
+msgstr ""
+
+#: src/API/Controllers/V1/DemoController.php:37
+msgid "Program to enroll the demo client in (optional)."
+msgstr ""
+
+#: src/API/Controllers/V1/GoogleAuthController.php:52
+#: src/API/Controllers/V1/GoogleAuthController.php:67
+msgid "Authorization code from Google."
+msgstr ""
+
+#: src/API/Controllers/V1/GoogleAuthController.php:56
+msgid "State parameter from Google."
+msgstr ""
+
+#: src/API/Controllers/V1/GoogleAuthController.php:71
+msgid "Redirect URI used in the authorization request."
+msgstr ""
+
+#: src/API/Controllers/V1/GoogleAuthController.php:129
+msgid "Google integration is not configured. Please set client ID and secret in settings."
+msgstr ""
+
+#: src/API/Controllers/V1/GoogleAuthController.php:163
+#: src/API/Controllers/V1/GoogleAuthController.php:181
+msgid "Google integration is not configured."
+msgstr ""
+
+#: src/API/Controllers/V1/GoogleAuthController.php:241
+msgid "No credentials provided. Upload a JSON file or send a credentials_json field."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:70
+msgid "Search term."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:76
+msgid "Maximum results to return."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:94
+#: src/API/Controllers/V1/LibraryActivitiesController.php:101
+#: src/API/Controllers/V1/LibraryActivitiesController.php:109
+msgid "Activity library item ID."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:122
+msgid "Return only published library items."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:134
+msgid "WP user ID of the activity owner. Admin-only — coaches are always assigned to themselves."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:148
+#: src/API/Controllers/V1/LibraryActivitiesController.php:186
+msgid "Activity title."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:154
+#: src/API/Controllers/V1/LibraryActivitiesController.php:191
+msgid "Activity description."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:159
+msgid "JSON-encoded ActivitySchema defining the response fields."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:167
+msgid "Whether the activity is published and visible to all coaches."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:196
+msgid "Field schema clients complete when doing this activity."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:221
+msgid "WP user ID of the owning coach."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:227
+msgid "Whether the activity is published."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:419
+msgid "Schema must be valid JSON."
+msgstr ""
+
+#: src/API/Controllers/V1/LibraryActivitiesController.php:427
+msgid "Schema fields must be an array."
+msgstr ""
+
+#: src/API/Controllers/V1/LogsController.php:31
+msgid "Number of recent log lines to return."
+msgstr ""
+
+#: src/API/Controllers/V1/ModulesController.php:91
+#: src/API/Controllers/V1/ModulesController.php:102
+#: src/API/Controllers/V1/ModulesController.php:152
+msgid "Module"
+msgstr ""
+
+#: src/API/Controllers/V1/ModulesController.php:106
+#: src/API/Controllers/V1/ModulesController.php:156
+msgid "Core features cannot be turned off."
+msgstr ""
+
+#: src/API/Controllers/V1/ModulesController.php:121
+msgid "This module cannot be activated."
+msgstr ""
+
+#. translators: %s: module name
+#: src/API/Controllers/V1/ModulesController.php:139
+msgid "%s activated."
+msgstr ""
+
+#. translators: %s: module name
+#: src/API/Controllers/V1/ModulesController.php:168
+msgid "%s deactivated."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:78
+#: src/Modules/PayPal/PayPalOrderController.php:161
+msgid "You must accept the privacy policy to continue."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:118
+msgid "Filter by client (user) ID."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:138
+#: src/API/Controllers/V1/SessionBookingsController.php:54
+msgid "Filter by client ID."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:139
+msgid "Filter by program ID."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:141
+msgid "Filter by order status."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:145
+msgid "Search orders by ID, client, program, status, payment, or transaction ID."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:148
+msgid "Filter orders created on or after this date (YYYY-MM-DD)."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:151
+msgid "Filter orders created on or before this date (YYYY-MM-DD)."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:170
+#: src/API/Controllers/V1/OrdersController.php:225
+msgid "Payment method for this order."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:175
+msgid "Optional notes for this order."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:179
+#: src/API/Controllers/V1/OrdersController.php:234
+msgid "Whether the privacy policy was accepted."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:208
+msgid "Client email address."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:220
+msgid "Program ID to enroll in."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:230
+msgid "Optional notes for the order."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:288
+#: src/API/Controllers/V1/OrdersController.php:968
+msgid "External transaction reference."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:352
+msgid "Order not found."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:459
+#: src/API/Controllers/V1/OrdersController.php:743
+#: src/API/Controllers/V1/OrdersController.php:777
+#: src/API/Controllers/V1/OrdersController.php:806
+#: src/Application/Order/AbandonOrderService.php:29
+#: src/Application/Order/CancelOrderService.php:32
+#: src/Application/Order/ConfirmOrderPaymentService.php:32
+#: src/Application/Order/ReactivateOrderService.php:27
+#: src/Modules/PayPal/PayPalOrderController.php:108
+#: src/Modules/PayPal/PayPalOrderController.php:145
+#: src/Modules/PayPal/PayPalOrderController.php:175
+msgid "Order"
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:513
+msgid "Could not register you as a client. Please contact the site administrator."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:523
+msgid "Your cart is empty. Please add a program before checking out."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:542
+#: src/API/Controllers/V1/OrdersController.php:655
+msgid "No payment methods are enabled. Please contact the site administrator."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:637
+msgid "First name and last name are required."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:641
+msgid "A valid email address is required."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:646
+#: src/API/Controllers/V1/ProgramsController.php:113
+#: src/Frontend/Controllers/ProgramController.php:97
+#: src/Infrastructure/Cart/CartManager.php:43
+msgid "Program not found."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:650
+#: src/Infrastructure/Cart/CartManager.php:49
+msgid "This program is not currently available."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:690
+msgid "An account with this email already exists. Please log in to continue and complete your payment."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:695
+msgid "Failed to create your account. Please try again."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:818
+#: resources/build/admin.js:4
+msgid "Failed to delete order."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:861
+#: src/API/Controllers/V1/OrdersController.php:915
+#: src/API/Controllers/V1/SessionBookingsController.php:322
+msgid "Client user ID."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:866
+msgid "Program ID for the order."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:871
+msgid "Payment method."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:876
+#: src/API/Controllers/V1/OrdersController.php:956
+msgid "Payment amount."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:881
+#: src/API/Controllers/V1/ProgramsController.php:474
+msgid "ISO 4217 currency code."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:886
+msgid "Admin notes for this order."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:889
+msgid "Initial order status."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:903
+msgid "Order ID."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:909
+msgid "Enrollment ID for this order."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:925
+msgid "Client display name."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:931
+#: src/API/Controllers/V1/ProgramsController.php:446
+#: src/API/Controllers/V1/ProgramsController.php:561
+msgid "Program title."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:937
+msgid "Order status."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:944
+msgid "Payment method used."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:950
+msgid "Payment status."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:962
+msgid "Currency code (ISO 4217)."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:974
+msgid "Admin notes."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:979
+msgid "Session progress for this enrollment."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:985
+msgid "Number of sessions scheduled (not cancelled)."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:989
+msgid "Number of sessions completed."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:993
+msgid "Total sessions required for the program."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:997
+msgid "Sessions yet to be scheduled."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:1003
+msgid "Activity completion progress for this enrollment."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:1009
+msgid "Number of activities completed."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:1013
+msgid "Total activities in the program."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:1017
+msgid "Completion percentage."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:1021
+msgid "IDs of completed activities."
+msgstr ""
+
+#: src/API/Controllers/V1/OrdersController.php:1028
+msgid "Payment confirmation date (ISO 8601)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:46
+#: src/API/Controllers/V1/ProgramCategoriesController.php:52
+#: src/API/Controllers/V1/ProgramCategoriesController.php:58
+msgid "Program category term ID."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:72
+msgid "Term ID."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:78
+#: src/API/Controllers/V1/ProgramCategoriesController.php:114
+#: src/API/Controllers/V1/ProgramCategoriesController.php:139
+msgid "Program category name."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:84
+#: src/API/Controllers/V1/ProgramCategoriesController.php:144
+msgid "URL slug."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:90
+msgid "Term description."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:96
+msgid "Number of programs using this category."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:102
+msgid "Parent term ID (0 if top-level)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:120
+msgid "URL slug. Auto-generated from name if omitted."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:124
+#: src/API/Controllers/V1/ProgramCategoriesController.php:148
+msgid "Optional description."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:129
+msgid "Parent term ID for hierarchy. 0 or omit for top-level."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:152
+msgid "Parent term ID. 0 for top-level."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:221
+#: src/API/Controllers/V1/ProgramCategoriesController.php:263
+#: src/API/Controllers/V1/ProgramCategoriesController.php:305
+msgid "Program category"
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:252
+msgid "Program category created but could not be retrieved."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramCategoriesController.php:315
+msgid "Could not delete program category."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:121
+msgid "Permission denied."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:157
+msgid "A meeting URL is required when meeting type is Custom URL."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:163
+msgid "A location is required when meeting type is Face to Face."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:370
+msgid "Failed to delete program"
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:429
+msgid "Filter programs by title."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:432
+msgid "Filter by program status: active, draft, or any."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:437
+msgid "Filter by program category term ID."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:452
+msgid "Program description (HTML allowed)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:457
+msgid "Duration length, e.g. 4 for \"4 weeks\"."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:463
+msgid "Duration unit: days, weeks, or months."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:468
+msgid "Program price. Set to 0 for a free program."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:480
+msgid "Maximum enrolled clients. 0 means unlimited."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:485
+msgid "Whether the program is accepting enrollments."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:489
+msgid "Attachment ID for the program thumbnail. 0 or omit to clear."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:493
+msgid "Array of program category term IDs."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:501
+msgid "Session duration per occurrence in minutes."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:505
+msgid "Number of times the session repeats (count)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:509
+#: src/API/Controllers/V1/ProgramsController.php:712
+msgid "How sessions for this program are conducted."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:514
+msgid "Meeting URL to use when meeting_type is custom_url."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:518
+msgid "Location/instructions to use when meeting_type is face_to_face."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:529
+msgid "WP user ID of the program owner. Admin-only — coaches are always assigned to themselves."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:541
+msgid "If true, remove the program session."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:566
+msgid "Program description (may contain HTML)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:571
+msgid "Program duration."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:586
+msgid "Program price."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:605
+msgid "Maximum enrollments. 0 = unlimited."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:611
+msgid "Whether the program accepts enrollments."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:617
+msgid "WP user ID of the program owner."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:623
+msgid "Coach display info."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:633
+msgid "Number of active bookings."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:639
+msgid "Program categories."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:667
+msgid "Session repetition count (number of times the session repeats)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:673
+msgid "Total session duration in minutes (duration × repetition count)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:679
+msgid "The single session for this program (if any)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:690
+msgid "Attachment ID for the program thumbnail."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:695
+msgid "Session duration per occurrence in minutes (create/update)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:701
+msgid "Number of times the session repeats (create/update)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:707
+msgid "If true, remove the program session (update only)."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:718
+msgid "Meeting URL used when meeting_type is custom_url."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:723
+msgid "Location/instructions used when meeting_type is face_to_face."
+msgstr ""
+
+#: src/API/Controllers/V1/ProgramsController.php:728
+msgid "Program featured image."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:62
+msgid "Ordered list of section IDs for this program."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:90
+#: src/API/Controllers/V1/SectionsController.php:190
+msgid "Section title."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:95
+msgid "Section description."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:143
+msgid "Ordered list of activity IDs belonging to this section."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:180
+msgid "Section ID."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:196
+msgid "Optional section description."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:218
+msgid "Per-instance configuration (e.g. custom labels)."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:297
+#: src/API/Controllers/V1/SectionsController.php:371
+#: src/API/Controllers/V1/SectionsController.php:407
+#: src/API/Controllers/V1/SectionsController.php:432
+#: src/Infrastructure/PostTypes/Section.php:18
+msgid "Section"
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:304
+msgid "Provide either template_id (library-backed) or schema (custom activity)."
+msgstr ""
+
+#: src/API/Controllers/V1/SectionsController.php:444
+#: resources/build/admin.js:12
+msgid "Failed to delete section."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:52
+msgid "Filter by enrollment ID."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:53
+msgid "Filter by coach ID."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:55
+msgid "Filter from date (YYYY-MM-DD)."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:56
+msgid "Filter to date (YYYY-MM-DD)."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:57
+msgid "Filter by status."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:58
+msgid "Search client or program"
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:296
+msgid "Notes for this session."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:299
+msgid "Sender timezone (IANA identifier, e.g. America/New_York)."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:328
+msgid "Coach user ID."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:340
+msgid "Scheduled date (YYYY-MM-DD)."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:346
+msgid "Start time (HH:MM)."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:351
+msgid "End time (HH:MM)."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:356
+msgid "Session number within the booking."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:362
+msgid "Session status."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:369
+msgid "Session notes."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:374
+msgid "Meeting join link (Google Meet or a coach-provided custom URL)."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:380
+msgid "How this session is conducted."
+msgstr ""
+
+#: src/API/Controllers/V1/SessionBookingsController.php:387
+msgid "In-person location/instructions (face_to_face meetings only)."
+msgstr ""
+
+#. translators: %s: Resource name
+#: src/API/RestController.php:42
+msgid "%s not found."
+msgstr ""
+
+#: src/API/RestController.php:45
+#: src/API/RestController.php:59
+msgid "Resource not found."
+msgstr ""
+
+#: src/API/RestController.php:52
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: src/API/RestController.php:72
+msgid "An error occurred."
+msgstr ""
+
+#. translators: %s: Field name
+#: src/API/RestController.php:81
+msgid "The %s field is required."
+msgstr ""
+
+#: src/API/RestController.php:244
+msgid "Current page of results."
+msgstr ""
+
+#. translators: %d: maximum items per page
+#: src/API/RestController.php:251
+msgid "Maximum results per page (max %d)."
+msgstr ""
+
+#: src/API/RestController.php:265
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: src/API/RestController.php:282
+msgid "Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: src/Application/Activity/CompleteActivityService.php:36
+#: src/Application/Booking/BookSessionService.php:95
+msgid "Booking"
+msgstr ""
+
+#: src/Application/Activity/CompleteActivityService.php:42
+#: src/Application/Booking/BookSessionService.php:100
+#: src/Application/Booking/BookSessionService.php:106
+msgid "This booking is not active."
+msgstr ""
+
+#: src/Application/Activity/CompleteActivityService.php:55
+msgid "This activity does not belong to the booked program."
+msgstr ""
+
+#: src/Application/Activity/CreateProgramActivityService.php:71
+msgid "Activity template"
+msgstr ""
+
+#: src/Application/Activity/CreateProgramActivityService.php:80
+msgid "A custom program activity requires a schemaJson when no templateId is provided."
+msgstr ""
+
+#: src/Application/Auth/LoginService.php:17
+msgid "Login and password are required."
+msgstr ""
+
+#: src/Application/Auth/LoginService.php:48
+msgid "You do not have access to this area."
+msgstr ""
+
+#: src/Application/Auth/LostPasswordService.php:16
+msgid "Please enter your email or username."
+msgstr ""
+
+#. translators: %s: username
+#: src/Application/Auth/LostPasswordService.php:62
+msgid "Hi %s,"
+msgstr ""
+
+#. translators: %s: site name
+#: src/Application/Auth/LostPasswordService.php:67
+msgid "We received a request to reset the password for your %s account."
+msgstr ""
+
+#: src/Application/Auth/LostPasswordService.php:70
+msgid "Click the link below to choose a new password:"
+msgstr ""
+
+#: src/Application/Auth/LostPasswordService.php:72
+msgid "For your security, this link will expire in 24 hours."
+msgstr ""
+
+#: src/Application/Auth/LostPasswordService.php:73
+msgid "If you didn't request this, you can safely ignore this email — your password will remain unchanged."
+msgstr ""
+
+#. translators: %s: site name
+#: src/Application/Auth/LostPasswordService.php:76
+msgid "— The %s Team"
+msgstr ""
+
+#: src/Application/Auth/ResetPasswordService.php:23
+msgid "Please enter and confirm your new password."
+msgstr ""
+
+#: src/Application/Auth/ResetPasswordService.php:35
+msgid "Password must be at least 8 characters."
+msgstr ""
+
+#. translators: %d: Availability ID
+#: src/Application/Availability/DeleteAvailabilityService.php:33
+msgid "Failed to delete availability with ID %d"
+msgstr ""
+
+#: src/Application/Booking/BookSessionService.php:127
+msgid "All sessions for this booking have already been scheduled."
+msgstr ""
+
+#: src/Application/Booking/CancelSessionBookingService.php:34
+msgid "Cannot cancel a completed session."
+msgstr ""
+
+#: src/Application/Booking/CancelSessionBookingService.php:42
+msgid "This session is already cancelled."
+msgstr ""
+
+#: src/Application/Booking/CompleteSessionService.php:44
+msgid "Only scheduled sessions can be marked as completed."
+msgstr ""
+
+#: src/Application/Booking/Pipes/ValidateCoachAvailability.php:37
+msgid "The requested time slot is outside the coach's availability."
+msgstr ""
+
+#: src/Application/Booking/Pipes/ValidateNoClientOverlap.php:24
+msgid "This time slot overlaps with another session for this client."
+msgstr ""
+
+#: src/Application/Booking/Pipes/ValidateNoCoachOverlap.php:23
+msgid "This time slot overlaps with another session for this coach."
+msgstr ""
+
+#. translators: %d: expected duration in minutes
+#: src/Application/Booking/Pipes/ValidateSessionDuration.php:31
+msgid "Session duration must be %d minutes."
+msgstr ""
+
+#: src/Application/Booking/Pipes/ValidateTimeSlot.php:20
+msgid "Invalid date format. Use YYYY-MM-DD."
+msgstr ""
+
+#: src/Application/Booking/Pipes/ValidateTimeSlot.php:27
+msgid "Cannot book sessions in the past."
+msgstr ""
+
+#: src/Application/Booking/Pipes/ValidateTimeSlot.php:33
+msgid "Start time must be before end time."
+msgstr ""
+
+#: src/Application/Client/CreateClientService.php:29
+#: src/Application/Client/DeleteClientService.php:28
+#: src/Application/Client/UpdateClientService.php:30
+#: src/Application/Order/CreateOrderService.php:44
+#: src/Core/RoleManager.php:56
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:161
+#: src/Modules/Demo/DemoClientManager.php:29
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Client"
+msgstr ""
+
+#. translators: %d: Client ID
+#: src/Application/Client/DeleteClientService.php:36
+msgid "Failed to delete client with ID %d"
+msgstr ""
+
+#. translators: %s: Client email
+#: src/Application/Client/UpdateClientService.php:40
+msgid "Client with email %s already exists"
+msgstr ""
+
+#: src/Application/Coach/CreateCoachService.php:28
+msgid "A coach with this email already exists."
+msgstr ""
+
+#: src/Application/Coach/UpdateCoachService.php:28
+#: src/Core/RoleManager.php:42
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:161
+#: resources/build/admin.js:11
+msgid "Coach"
+msgstr ""
+
+#: src/Application/Order/AbandonOrderService.php:38
+msgid "This order can no longer be abandoned."
+msgstr ""
+
+#: src/Application/Order/CancelOrderService.php:37
+#: src/Application/Order/ConfirmOrderPaymentService.php:43
+#: src/Application/Order/ReactivateOrderService.php:38
+msgid "Order item"
+msgstr ""
+
+#: src/Application/Order/CancelOrderService.php:46
+msgid "Cannot cancel an expired enrollment."
+msgstr ""
+
+#: src/Application/Order/CancelOrderService.php:52
+msgid "This order is already cancelled."
+msgstr ""
+
+#: src/Application/Order/ConfirmOrderPaymentService.php:37
+msgid "This order has already been paid."
+msgstr ""
+
+#: src/Application/Order/CreateOrderService.php:54
+msgid "This program is not currently active."
+msgstr ""
+
+#: src/Application/Order/CreateOrderService.php:61
+msgid "This payment method is not enabled."
+msgstr ""
+
+#: src/Application/Order/CreateOrderService.php:67
+msgid "Client already has an active enrollment for this program."
+msgstr ""
+
+#: src/Application/Order/CreateOrderService.php:75
+msgid "This program has reached its maximum capacity."
+msgstr ""
+
+#: src/Application/Order/ReactivateOrderService.php:32
+msgid "Only cancelled orders can be reactivated to pending."
+msgstr ""
+
+#. translators: %s: Entity type
+#: src/Core/Exceptions/NotFoundException.php:15
+msgid "%s not found"
+msgstr ""
+
+#: src/Core/PrivacyServiceProvider.php:72
+msgid "AllCoach:"
+msgstr ""
+
+#: src/Core/PrivacyServiceProvider.php:73
+msgid "This will permanently delete their program enrollments, bookings, and activity data — this cannot be undone."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:220
+msgid "Primary brand color used across the frontend."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:226
+msgid "Button color for the frontend."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:232
+msgid "Button hover color for the frontend."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:238
+msgid "Default currency for programs and bookings."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:243
+msgid "Enable offline payment method."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:248
+msgid "Display title for offline payment."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:253
+msgid "Description shown to clients for offline payment."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:258
+msgid "Sender name for outgoing emails."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:263
+msgid "Sender email address for outgoing emails."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:268
+msgid "New booking confirmation: sent to client when a booking is received."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:273
+msgid "New booking alert: sent to admin when a new booking is placed."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:278
+msgid "Session cancellation notice: sent to client when a session is cancelled."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:283
+msgid "24-hour reminder: sent to client 24 hours before a scheduled session."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:288
+msgid "Subject for new booking confirmation."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:293
+msgid "Body template for new booking confirmation."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:299
+msgid "Subject for new booking alert."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:304
+msgid "Body template for new booking alert."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:310
+msgid "Subject for cancellation notice."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:315
+msgid "Body template for cancellation notice."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:321
+msgid "Subject for 24-hour session reminder."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:326
+msgid "Body template for 24-hour session reminder."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:332
+msgid "Order confirmed: sent to client when their payment is verified."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:337
+msgid "Order cancelled: sent to client when their order is cancelled."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:342
+msgid "Welcome email: sent to client when their account is created."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:347
+msgid "Session booking confirmation: sent to client immediately when a session is booked."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:352
+msgid "Session completed follow-up: sent to client after a session is marked as completed."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:357
+msgid "Session cancelled alert: sent to admin when a session is cancelled."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:362
+msgid "Subject for order confirmed notification."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:367
+msgid "Body template for order confirmed notification."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:373
+msgid "Subject for order cancelled notification."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:378
+msgid "Body template for order cancelled notification."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:384
+msgid "Subject for welcome client email."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:389
+msgid "Body template for welcome client email."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:395
+msgid "Subject for session booking confirmation."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:400
+msgid "Body template for session booking confirmation."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:406
+msgid "Subject for session completed follow-up."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:411
+msgid "Body template for session completed follow-up."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:417
+msgid "Subject for session cancelled alert."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:422
+msgid "Body template for session cancelled alert."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:428
+msgid "Auto-generate Google Meet links for session bookings."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:433
+#: resources/build/admin.js:12
+msgid "Help improve the plugin by sharing anonymous usage statistics. No personal data is collected and data is never shared with third parties."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:438
+msgid "Require visitors to accept the privacy policy before checkout and booking."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:443
+msgid "Consent checkbox label. Use {privacy_policy} to insert a link to the privacy policy page."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:448
+msgid "Current privacy policy version, recorded with each consent."
+msgstr ""
+
+#: src/Core/Settings/SettingsManager.php:453
+msgid "Permanently delete all AllCoach data (programs, orders, bookings, clients data and settings) when the plugin is deleted. This cannot be undone."
+msgstr ""
+
+#: src/Domain/Cart/CartItem.php:49
+msgid "Quantity must be non-negative"
+msgstr ""
+
+#: src/Domain/Client/Client.php:97
+msgid "Invalid email address"
+msgstr ""
+
+#. translators: %s: Client status
+#: src/Domain/Client/ClientStatus.php:28
+msgid "Invalid client status: %s"
+msgstr ""
+
+#: src/Frontend/ActivityFieldRenderer.php:140
+#: src/Frontend/ActivityFieldRenderer.php:143
+msgid "No file uploaded."
+msgstr ""
+
+#: src/Frontend/ActivityFieldRenderer.php:191
+msgid "Download video"
+msgstr ""
+
+#: src/Frontend/ActivityFieldRenderer.php:209
+msgid "Download audio"
+msgstr ""
+
+#: src/Frontend/Controllers/ActivityController.php:43
+#: src/Frontend/Controllers/ProgramController.php:96
+#: src/Frontend/Controllers/ProgramController.php:170
+msgid "Not Found"
+msgstr ""
+
+#: src/Frontend/Controllers/ActivityController.php:44
+#: src/Frontend/Controllers/ProgramController.php:171
+msgid "Activity not found."
+msgstr ""
+
+#: src/Frontend/Controllers/AuthController.php:46
+msgid "Login"
+msgstr ""
+
+#: src/Frontend/Controllers/AuthController.php:55
+#: src/Frontend/Controllers/AuthController.php:110
+#: src/Frontend/Controllers/AuthController.php:187
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: src/Frontend/Controllers/AuthController.php:62
+msgid "Please enter your email and password."
+msgstr ""
+
+#: src/Frontend/Controllers/AuthController.php:101
+#: src/Frontend/Controllers/AuthController.php:156
+#: src/Frontend/Controllers/AuthController.php:178
+msgid "Reset your password"
+msgstr ""
+
+#: src/Frontend/Controllers/BookingController.php:73
+#: src/Frontend/FrontendServiceProvider.php:98
+msgid "My Appointments"
+msgstr ""
+
+#: src/Frontend/Controllers/BookingController.php:122
+#: src/Frontend/Controllers/ProgramController.php:137
+msgid "Book an Appointment"
+msgstr ""
+
+#: src/Frontend/Controllers/DashboardController.php:98
+msgid "Dashboard"
+msgstr ""
+
+#: src/Frontend/Controllers/ProfileController.php:49
+#: src/Frontend/FrontendServiceProvider.php:103
+msgid "My Profile"
+msgstr ""
+
+#: src/Frontend/Controllers/ProgramController.php:72
+#: src/Frontend/FrontendServiceProvider.php:93
+msgid "My Programs"
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:88
+msgid "My Account"
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:234
+msgid "First name is required."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:235
+msgid "Last name is required."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:236
+msgid "Email is required."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:237
+msgid "Invalid email."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:238
+#: src/Infrastructure/Privacy/ConsentPolicy.php:84
+msgid "Please accept the privacy policy to continue."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:239
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:240
+msgid "PayPal is not configured. Please choose another payment method or contact the site administrator."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:241
+msgid "Processing..."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:242
+msgid "Place Order"
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:243
+msgid "Thanks! Your order is received."
+msgstr ""
+
+#. translators: 1: client first name, 2: program title
+#: src/Frontend/FrontendServiceProvider.php:245
+msgid "Thanks, %1$s! Your enrollment for %2$s is pending payment confirmation. Check your email for payment instructions."
+msgstr ""
+
+#. translators: 1: client first name, 2: program title
+#: src/Frontend/FrontendServiceProvider.php:250
+msgid "Thanks, %1$s! Your enrollment for %2$s is confirmed. You can now access your program from your dashboard."
+msgstr ""
+
+#. translators: %s: client email address
+#: src/Frontend/FrontendServiceProvider.php:255
+msgid "Confirmation sent to %s. Your coach will verify payment and activate your program within 24 hours."
+msgstr ""
+
+#. translators: %s: client email address
+#: src/Frontend/FrontendServiceProvider.php:260
+msgid "A confirmation email has been sent to %s."
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:264
+msgid "Order ID"
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:266
+#: resources/build/admin.js:1
+#: resources/build/admin.js:12
+msgid "Payment"
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:267
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:104
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:133
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:171
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:259
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Status"
+msgstr ""
+
+#: src/Frontend/FrontendServiceProvider.php:268
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:106
+#: resources/build/admin.js:11
+msgid "Total"
+msgstr ""
+
+#: src/Infrastructure/Cart/CartManager.php:57
+msgid "This program is already in your cart."
+msgstr ""
+
+#. translators: %s: Program name
+#: src/Infrastructure/Cart/CartManager.php:94
+msgid "Program \"%s\" is no longer available."
+msgstr ""
+
+#. translators: %s: Program name
+#: src/Infrastructure/Cart/CartManager.php:100
+msgid "Program \"%s\" is no longer active."
+msgstr ""
+
+#: src/Infrastructure/Google/GoogleCredentialManager.php:71
+msgid "Invalid JSON file."
+msgstr ""
+
+#. translators: %s: Missing key name
+#: src/Infrastructure/Google/GoogleCredentialManager.php:82
+msgid "Missing required field: %s"
+msgstr ""
+
+#: src/Infrastructure/Google/GoogleOAuthClient.php:42
+msgid "Failed to connect to Google: "
+msgstr ""
+
+#: src/Infrastructure/Google/GoogleOAuthClient.php:46
+msgid "Invalid response from Google."
+msgstr ""
+
+#: src/Infrastructure/Google/GoogleOAuthClient.php:76
+msgid "No refresh token available."
+msgstr ""
+
+#: src/Infrastructure/Google/GoogleOAuthClient.php:87
+#: src/Infrastructure/Google/GoogleOAuthClient.php:93
+msgid "Google token refresh failed. Please reconnect."
+msgstr ""
+
+#: src/Infrastructure/Mail/Notifications/SessionBookingConfirmationNotification.php:46
+#: src/Infrastructure/Mail/Notifications/SessionBookingConfirmationNotification.php:70
+#: src/Infrastructure/Mail/Notifications/SessionBookingConfirmationNotification.php:78
+#: src/Infrastructure/Mail/Notifications/SessionReminder24hNotification.php:46
+#: src/Infrastructure/Mail/Notifications/SessionReminder24hNotification.php:70
+#: src/Infrastructure/Mail/Notifications/SessionReminder24hNotification.php:78
+msgid "To be provided"
+msgstr ""
+
+#. translators: %s: in-person meeting location.
+#: src/Infrastructure/Mail/Notifications/SessionBookingConfirmationNotification.php:72
+#: src/Infrastructure/Mail/Notifications/SessionReminder24hNotification.php:72
+msgid "Location: %s"
+msgstr ""
+
+#. translators: %s: meeting join link.
+#: src/Infrastructure/Mail/Notifications/SessionBookingConfirmationNotification.php:80
+#: src/Infrastructure/Mail/Notifications/SessionReminder24hNotification.php:80
+msgid "Join via: %s"
+msgstr ""
+
+#: src/Infrastructure/Payment/OfflinePaymentGateway.php:20
+msgid "Offline Payment"
+msgstr ""
+
+#: src/Infrastructure/Payment/OfflinePaymentGateway.php:33
+msgid "Offline payment recorded. Awaiting manual confirmation."
+msgstr ""
+
+#. translators: %s: payment method ID
+#: src/Infrastructure/Payment/PaymentGatewayRegistry.php:44
+msgid "No payment gateway found for method: %s"
+msgstr ""
+
+#. translators: 1: week number, 2: day number
+#: src/Infrastructure/Persistence/ActivityRepository.php:119
+msgid "Week %1$d – Day %2$d"
+msgstr ""
+
+#. translators: %s: timezone
+#: src/Infrastructure/Persistence/AvailabilityRepository.php:72
+#: src/Infrastructure/Persistence/AvailabilityRepository.php:109
+msgid "Availability (%s)"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Activity.php:18
+#: resources/build/admin.js:12
+msgid "Activities"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Activity.php:20
+msgid "Add New Activity"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Activity.php:21
+msgid "Edit Activity"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Activity.php:22
+#: resources/build/admin.js:12
+msgid "No activities found"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Activity.php:23
+msgid "No activities found in trash"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:17
+msgid "Activity Types"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:18
+#: src/Infrastructure/PostTypes/ActivityType.php:19
+msgid "Activity Type"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:20
+#: src/Infrastructure/PostTypes/Availability.php:21
+#: src/Infrastructure/PostTypes/Program.php:20
+#: resources/build/admin.js:12
+msgid "Add New"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:21
+msgid "Add New Activity Type"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:22
+msgid "Edit Activity Type"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:23
+msgid "New Activity Type"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:24
+msgid "View Activity Type"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:25
+msgid "Search Activity Types"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:26
+msgid "No activity types found"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/ActivityType.php:27
+msgid "No activity types found in trash"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Availability.php:18
+#: src/Infrastructure/PostTypes/Availability.php:20
+msgid "Availabilities"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Availability.php:22
+msgid "Add New Availability"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Availability.php:23
+msgid "Edit Availability"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Availability.php:24
+msgid "New Availability"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Availability.php:25
+msgid "View Availability"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Availability.php:26
+msgid "Search Availabilities"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Availability.php:27
+msgid "No availabilities found"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Availability.php:28
+msgid "No availabilities found in trash"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Program.php:21
+msgid "Add New Program"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Program.php:22
+msgid "Edit Program"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Program.php:23
+msgid "New Program"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Program.php:24
+msgid "View Program"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Program.php:25
+msgid "Search Programs"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Program.php:26
+msgid "No programs found"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Program.php:27
+msgid "No programs found in trash"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Section.php:17
+msgid "Sections"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Section.php:19
+msgid "Add New Section"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Section.php:20
+msgid "Edit Section"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Section.php:21
+msgid "No sections found"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Section.php:22
+msgid "No sections found in trash"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Session.php:17
+#: resources/build/admin.js:12
+msgid "Sessions"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Session.php:18
+msgid "Session"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Session.php:19
+msgid "Add New Session"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Session.php:20
+msgid "Edit Session"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Session.php:21
+#: resources/build/admin.js:12
+msgid "No sessions found"
+msgstr ""
+
+#: src/Infrastructure/PostTypes/Session.php:22
+msgid "No sessions found in trash"
+msgstr ""
+
+#: src/Infrastructure/Privacy/ConsentPolicy.php:51
+#: resources/build/admin.js:12
+msgid "I agree to the {privacy_policy}."
+msgstr ""
+
+#: src/Infrastructure/Privacy/ConsentPolicy.php:59
+msgid "privacy policy"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:46
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:100
+msgid "AllCoach Orders"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:50
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:129
+msgid "AllCoach Enrollments"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:54
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:165
+msgid "AllCoach Appointments"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:58
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:195
+msgid "AllCoach Activity Responses"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:62
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:219
+msgid "AllCoach Consent Records"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:66
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:253
+msgid "AllCoach Client Profile"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:78
+msgid "AllCoach Data"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:105
+#: resources/build/admin.js:6
+msgid "Payment Method"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:107
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:174
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:257
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Notes"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:108
+#: resources/build/admin.js:8
+msgid "Created"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:134
+msgid "Enrolled"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:135
+msgid "Expires"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:168
+msgid "Role"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:170
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Date"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:172
+#: resources/build/admin.js:12
+msgid "Meeting Type"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:173
+#: resources/build/admin.js:12
+msgid "Location"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:199
+msgid "Responses"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:200
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:9
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Completed"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:222
+msgid "Consent Type"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:223
+msgid "Policy Version"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:224
+msgid "Consented At"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:225
+msgid "IP Address"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:256
+#: resources/build/admin.js:8
+msgid "Phone"
+msgstr ""
+
+#: src/Infrastructure/Privacy/PersonalDataGdpr.php:258
+msgid "Timezone"
+msgstr ""
+
+#. translators: 1: week number 2: day number
+#: src/Infrastructure/Seeders/SampleDataSeeder.php:180
+#: src/Infrastructure/Seeders/SampleDataSeeder.php:197
+msgid "Week %1$d - Day %2$d"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:21
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:23
+msgid "Activity Groups"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:22
+msgid "Activity Group"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:24
+msgid "All Activity Groups"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:25
+msgid "Edit Activity Group"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:26
+msgid "View Activity Group"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:27
+msgid "Update Activity Group"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:28
+msgid "Add New Activity Group"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:29
+msgid "New Activity Group Name"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:30
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:30
+msgid "Parent Category"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:31
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:31
+msgid "Parent Category:"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:32
+msgid "Search Activity Groups"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ActivityGroup.php:33
+msgid "No activity groups found"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:21
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:23
+msgid "Program Categories"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:22
+msgid "Program Category"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:24
+msgid "All Program Categories"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:25
+msgid "Edit Program Category"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:26
+msgid "View Program Category"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:27
+msgid "Update Program Category"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:28
+msgid "Add New Program Category"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:29
+msgid "New Program Category Name"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:32
+msgid "Search Program Categories"
+msgstr ""
+
+#: src/Infrastructure/Taxonomies/ProgramCategory.php:33
+msgid "No program categories found"
+msgstr ""
+
+#: src/Modules/Demo/DemoClientManager.php:27
+msgid "Demo Client"
+msgstr ""
+
+#: src/Modules/Demo/DemoClientManager.php:28
+#: resources/build/admin.js:8
+msgid "Demo"
+msgstr ""
+
+#: src/Modules/Demo/DemoModule.php:40
+msgid "Demo link has expired or is invalid. Please generate a new one from the admin panel."
+msgstr ""
+
+#: src/Modules/Demo/DemoModule.php:49
+msgid "Failed to start demo session. Please try again."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:60
+msgid "Enable PayPal payment gateway."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:65
+msgid "Display title for PayPal payment."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:70
+msgid "Description shown to clients for PayPal payment."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:75
+#: src/Modules/PayPal/PayPalOrderController.php:44
+msgid "PayPal REST API client ID."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:80
+msgid "PayPal REST API secret key."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:85
+msgid "Use PayPal sandbox (test) environment."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:90
+msgid "PayPal webhook ID for signature verification."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:96
+msgid "Whether to capture payment immediately or only authorize."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:102
+msgid "Shipping address collection preference."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalAddon.php:186
+msgid "PayPal authorization capture failed. Order was not confirmed."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:48
+msgid "PayPal REST API secret."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:52
+msgid "Use sandbox environment."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:88
+msgid "PayPal order ID returned after buyer approval."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:92
+msgid "Whether the privacy policy is currently accepted."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:116
+#: src/Modules/PayPal/PayPalOrderController.php:153
+msgid "Order payment method is not PayPal."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:120
+#: src/Modules/PayPal/PayPalOrderController.php:157
+msgid "Order is not pending payment."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:125
+msgid "Order item not found."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:130
+msgid "Failed to create PayPal order. Check your API credentials."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalOrderController.php:166
+msgid "PayPal payment could not be completed."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalPaymentGateway.php:30
+#: resources/build/admin.js:12
+msgid "PayPal"
+msgstr ""
+
+#: src/Modules/PayPal/PayPalPaymentGateway.php:47
+msgid "Failed to create PayPal order."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalPaymentGateway.php:54
+msgid "PayPal order created. Awaiting client payment."
+msgstr ""
+
+#. translators: %d: order ID
+#: src/Modules/PayPal/PayPalPaymentGateway.php:77
+msgid "AllCoach Order #%d"
+msgstr ""
+
+#: src/Modules/PayPal/PayPalPaymentGateway.php:443
+msgid "Client ID and secret are required."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalPaymentGateway.php:472
+msgid "Invalid credentials."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalPaymentGateway.php:482
+msgid "Connected to PayPal Sandbox."
+msgstr ""
+
+#: src/Modules/PayPal/PayPalPaymentGateway.php:483
+msgid "Connected to PayPal Live."
+msgstr ""
+
+#: src/Modules/Promo/bootstrap.php:41
+msgid "This add-on is available in AllCoach Pro."
+msgstr ""
+
+#. translators: 1: Minimum PHP version 2: Current PHP version
+#: src/Plugin.php:57
+msgid "All Coach requires PHP %1$s or higher. You are running PHP %2$s."
+msgstr ""
+
+#: src/Plugin.php:61
+#: src/Plugin.php:75
+msgid "Activation Error"
+msgstr ""
+
+#. translators: 1: Minimum WP version 2: Current WP version
+#: src/Plugin.php:71
+msgid "All Coach requires WordPress %1$s or higher. You are running WordPress %2$s."
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Something went wrong"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Try again"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Go back"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Google Meet isn't configured yet."
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Set up Google Meet →"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Google account isn't connected — meeting links won't be generated."
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Connect Google Account →"
+msgstr ""
+
+#: resources/build/admin.js:1
+#: resources/build/admin.js:12
+msgid "Styling"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Emails"
+msgstr ""
+
+#: resources/build/admin.js:1
+#: resources/build/admin.js:12
+msgid "Google Meet / Calendar"
+msgstr ""
+
+#: resources/build/admin.js:1
+#: resources/build/admin.js:12
+msgid "Advanced"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Logs"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Global Settings"
+msgstr ""
+
+#: resources/build/admin.js:1
+#: resources/build/admin.js:2
+msgid "Upgrade to unlock"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Coming soon"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Pro"
+msgstr ""
+
+#: resources/build/admin.js:1
+#: resources/build/admin.js:4
+#: resources/build/admin.js:12
+msgid "Free"
+msgstr ""
+
+#: resources/build/admin.js:1
+msgid "Docs"
+msgstr ""
+
+#. translators: %s: comma-separated list of required plugins/features
+#: resources/build/admin.js:2
+msgid "Requires %s"
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Something went wrong."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "No add-ons available yet."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Rows per page"
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "selected"
+msgstr ""
+
+#: resources/build/admin.js:2
+#: resources/build/admin.js:12
+msgid "Untitled Program"
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Failed to create program. Please try again."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Program activated."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Program deactivated."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Category created."
+msgstr ""
+
+#: resources/build/admin.js:2
+#: resources/build/admin.js:12
+msgid "Failed to create category."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Category updated."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Failed to update category."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Category deleted."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Failed to delete category."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Program deleted."
+msgstr ""
+
+#: resources/build/admin.js:2
+msgid "Failed to delete program. Please try again."
+msgstr ""
+
+#. translators: %d: number of programs updated
+#: resources/build/admin.js:3
+msgid "%d program(s) updated."
+msgstr ""
+
+#. translators: %1$d: number of succeeded actions, %2$d: number of failed actions
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:8
+#: resources/build/admin.js:11
+msgid "%1$d succeeded, %2$d failed."
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:8
+#: resources/build/admin.js:11
+msgid "Bulk action failed. Please try again."
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:12
+msgid "Active"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Draft"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "View as Demo Client"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:8
+msgid "Edit"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:8
+#: resources/build/admin.js:9
+#: resources/build/admin.js:12
+msgid "Delete"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:8
+msgid "Search…"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "All Status"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "All Types"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Manage Categories"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Create New Program"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Programs per page"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "No programs match your filters"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "No programs yet"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Try adjusting your search or filters."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Create your first program to start enrolling clients."
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:12
+msgid "Save"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:8
+#: resources/build/admin.js:9
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Cancel"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Category name…"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Add a category"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Delete Program"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Are you sure you want to delete this program? This action cannot be undone."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Delete Programs"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Set Active"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Set Inactive"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:12
+msgid "Pending"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+msgid "Confirmed"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:6
+#: resources/build/admin.js:9
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Cancelled"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Authorized"
+msgstr ""
+
+#: resources/build/admin.js:4
+#: resources/build/admin.js:12
+msgid "Paid"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Failed"
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Order created."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Failed to create order. Please try again."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Order confirmed."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Failed to confirm order."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Order cancelled."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Failed to cancel order."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Order reactivated."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Failed to reactivate order."
+msgstr ""
+
+#: resources/build/admin.js:4
+msgid "Order deleted."
+msgstr ""
+
+#. translators: %d: number of orders updated
+#: resources/build/admin.js:5
+msgid "%d order(s) updated."
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "View"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Search client or program…"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Pick a date range"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "New Order"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Orders per page"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "No orders match your filters"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "No orders yet"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Orders will appear here once clients enroll."
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Select a client…"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Select a program…"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Offline / Manual"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:12
+msgid "Amount"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:12
+msgid "Currency"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:11
+msgid "Optional notes…"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Create Order"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "View Order"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Payment Status"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Transaction ID"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Paid At"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Add notes…"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Capture & Confirm Order"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Confirm Order"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Set Pending"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Cancel Order"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Delete Order"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Are you sure you want to delete this order? This action cannot be undone."
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Delete Orders"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Confirm"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:12
+msgid "Upcoming"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:12
+msgid "No-show"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Client updated."
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Client added."
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Failed to save client. Please try again."
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Edit Client"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:8
+msgid "Add Client"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "First Name"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Jane"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Last Name"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Doe"
+msgstr ""
+
+#: resources/build/admin.js:6
+#: resources/build/admin.js:8
+#: resources/build/admin.js:12
+msgid "Email"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "jane@example.com"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Phone Number"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "+ 1 555 000 0000"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Time Zone"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Select time zone…"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Save Changes"
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Client deleted."
+msgstr ""
+
+#: resources/build/admin.js:6
+msgid "Failed to delete client."
+msgstr ""
+
+#. translators: %d: number of clients deleted
+#: resources/build/admin.js:7
+msgid "%d client(s) deleted."
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "ID"
+msgstr ""
+
+#: resources/build/admin.js:8
+#: resources/build/admin.js:12
+msgid "Name"
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "Total Orders"
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "Switch to"
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "Clients per page"
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "No clients match your search"
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "No clients yet"
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "Try a different search term."
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "Clients will appear here once they sign up."
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "Delete Client"
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "Are you sure you want to delete this client? This action cannot be undone."
+msgstr ""
+
+#: resources/build/admin.js:8
+msgid "Delete Clients"
+msgstr ""
+
+#. translators: %d: number of clients to delete
+#: resources/build/admin.js:9
+msgid "Are you sure you want to delete %d client(s)? This action cannot be undone."
+msgstr ""
+
+#: resources/build/admin.js:9
+#: resources/build/admin.js:11
+msgid "Scheduled"
+msgstr ""
+
+#: resources/build/admin.js:9
+#: resources/build/admin.js:11
+msgid "No Show"
+msgstr ""
+
+#: resources/build/admin.js:9
+msgid "Appointment created."
+msgstr ""
+
+#: resources/build/admin.js:9
+msgid "Failed to create appointment. Please try again."
+msgstr ""
+
+#: resources/build/admin.js:9
+msgid "Appointment marked as completed."
+msgstr ""
+
+#: resources/build/admin.js:9
+msgid "Failed to complete appointment."
+msgstr ""
+
+#: resources/build/admin.js:9
+msgid "Appointment cancelled."
+msgstr ""
+
+#: resources/build/admin.js:9
+msgid "Failed to cancel appointment."
+msgstr ""
+
+#. translators: %d: number of appointments updated
+#: resources/build/admin.js:10
+msgid "%d appointment(s) updated."
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Appointment Date"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Meeting URL doesn't exist"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "In-person"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Join Meeting"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "New Appointment"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Appointments per page"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "No appointments match your filters"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "No appointments yet"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Appointments will appear here once clients book sessions."
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Loading…"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "No active enrollments"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Select a client first…"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "This client has no active program enrollments. Create an order first."
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Pick a date…"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Available Time Slots"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "No slots available for this date."
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Selected:"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Create Appointment"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Appointment"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Created at:"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Time"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Booking Message"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Mark as Completed"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Cancel Appointment"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Are you sure you want to cancel this appointment? This action cannot be undone."
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Keep"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Mark Complete"
+msgstr ""
+
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Day"
+msgstr ""
+
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Week"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Month"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Orders by status"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Appointments by status"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Activity completion"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Revenue by program"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "No data for this period"
+msgstr ""
+
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Net Revenue"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Paid orders minus refunds within the selected date range."
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Avg Order Revenue"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Net revenue divided by the number of paid orders."
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Distinct clients enrolled within the selected date range."
+msgstr ""
+
+#: resources/build/admin.js:11
+#: resources/build/admin.js:12
+msgid "Enrollments"
+msgstr ""
+
+#: resources/build/admin.js:11
+msgid "Appointments scheduled within the selected date range."
+msgstr ""
+
+#. translators: %s is the previous-period value.
+#: resources/build/admin.js:12
+msgid "vs. %s last period"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Overview"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Line chart"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Bar chart"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Unlock Advanced Analytics"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Get detailed breakdowns, custom date ranges, per-program insights and more with AllCoach Pro."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Filter by program, pick custom date ranges and switch granularity with AllCoach Pro."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Unlock Export & Print"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Export your analytics as CSV and print detailed reports with AllCoach Pro."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "All Programs"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Last 30 days"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Export"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Print"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Styling settings saved."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to save settings."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Primary color"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Choose a color to match your brand or site."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Button color"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Reflects on the primary buttons across your site."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Normal"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Hover"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Enter Client ID and Secret first."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Connection test failed."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Webhook URL copied to clipboard."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to copy URL."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Accept payments via PayPal."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "is not supported by PayPal. Switch to a supported currency (USD, EUR, GBP…) or PayPal payments will fail at checkout."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Title"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Description"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Instructions shown to the client at checkout."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sandbox mode"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Use PayPal sandbox for testing."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Learn more"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Client ID"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Get API credentials"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "PayPal REST API client ID"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Secret"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "PayPal REST API secret"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Test Connection"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Webhook ID"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Create webhook in PayPal"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "PayPal webhook ID for signature verification"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Webhook URL"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add webhook in PayPal"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Copy PayPal webhook URL"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Copy this URL, add it as a webhook in PayPal, then paste the webhook ID above."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Payment action"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Capture vs Authorize"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Capture"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Authorize"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Shipping address"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Don't collect a shipping address"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Collect the buyer's PayPal shipping address"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Online card payments via Stripe."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Payment settings saved."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Payment methods"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Choose which payment methods clients can use."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Standard"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Accept payment outside the platform."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "e.g. Pay in person"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Logs cleared."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to clear logs."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Activity Logs"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "file"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "files"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Logs refreshed."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Refresh"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Clear Logs"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Clear all logs?"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "This will permanently delete all log files. This action cannot be undone."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "All"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No logs yet"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No entries match your filter"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Activity logs will appear here as they happen."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Try adjusting the selected filter."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Load More"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Showing"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "total"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Google account connected successfully."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Google credentials saved."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to save credentials."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to get Google authorization URL."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Google account disconnected."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to disconnect Google account."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Please drop a valid JSON file."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Redirect URL copied to clipboard."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Step 1 — OAuth Credentials"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Download the OAuth 2.0 Client ID JSON from"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Google Cloud Console"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "and drop it below."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Remove"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Credentials configured"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Drop credentials JSON here"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "or click to browse"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Step 2 — Authorized Redirect URI"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add this URI to your Google Cloud Console under"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "OAuth 2.0 Client → Authorized redirect URIs"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid ", then save the client."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Copy the URI below and paste it into your Google app credentials before connecting your account."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Copy"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Configured by your administrator."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Step 3 — Connect Google Account"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Authorize access to Google Calendar to enable Meet links for appointments."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Connected"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Not connected"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Disconnect"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Connect Google Account"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Remove OAuth Credentials"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Are you sure you want to remove the OAuth credentials? Google Meet and Calendar integration will stop working."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Disconnect Google Account"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Are you sure you want to disconnect your Google account? Calendar sync and Meet links will stop working for new appointments."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Welcome email"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to client when their account is created."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "New booking confirmation"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to client when a booking is received."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Order confirmed"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to client when their payment is verified."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Order cancelled"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to client when their order is cancelled."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Session cancellation notice"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to client when a session is cancelled."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "24-hour session reminder"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to client 24 hours before a scheduled session."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Session booking confirmation"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to client immediately when a session is booked."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Session completed follow-up"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to client after a session is marked as completed."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "New booking alert"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to admin when a new booking is placed."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Session cancelled alert"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sent to admin when a session is cancelled."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Email settings saved."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sender"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sender name"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "e.g. John Coach"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sender email"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "e.g. hello@example.com"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Notifications"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Choose which automated emails are sent."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Coach / Admin"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Availability saved."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to save availability. Please try again."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Time zone"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Weekly hours"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "START"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "END"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Unavailable"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Advanced settings saved."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Send anonymous usage data"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Require privacy consent"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Require visitors to accept the privacy policy before checkout and booking. The link points to your WordPress privacy policy page (Settings → Privacy)."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Consent text"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Use {privacy_policy} to insert a link to the privacy policy page."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Privacy policy version"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Recorded with each consent. Bump this when your policy changes."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Delete all data on uninstall"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "When enabled, deleting the plugin permanently removes all AllCoach data — programs, orders, enrollments, bookings, activity data, client records and settings. Disabled by default so your data is kept if you deactivate or reinstall."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Warning: this cannot be undone. All data will be erased the moment the plugin is deleted from the Plugins screen."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No answer provided"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "of"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "answered"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Question"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Short answer"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Long answer"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Multiple choice"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Checkbox"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "File upload"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Client Response"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Submitted by"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "at"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Not started"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "View responses"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No responses yet"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No response data available."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "sessions completed"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "activities completed"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "This program has no sessions for this client yet."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "min"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "This program has no activities for this client yet."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Joined"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Edit client"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No programs enrolled"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "This client hasn't been enrolled in any program yet."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Type \"/\" for commands"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Use this file"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "View full size"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Replace"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add Audio"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Click to select from media library"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Required?"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Question…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Option…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add option"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Checkboxes"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Date picker…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "File Upload"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "File upload zone"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Allowed file types"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid ".pdf, .docx, image/*"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add Image"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Long Answer"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Long answer…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Single Choice"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Short Answer"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Short answer…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add Video"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Content"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Text"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Plain text paragraph."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Heading 1"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Large section heading."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Heading 2"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Medium section heading."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Heading 3"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Small section heading."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Bullet List"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Unordered list."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Numbered List"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Ordered list with numbering."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Quote"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Highlighted quote block."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Separator"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Horizontal divider line."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Input Elements"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Single line text field."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Multi-line text area."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Single select with options."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Multi-select with options."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Date picker field."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Media Elements"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Image"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Upload or embed an image."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Audio"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Embed an audio file."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Video"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Embed a video."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add a block"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No results"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Activity saved."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to save activity."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Activity title…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Saving…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Save Activity"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Untitled Activity"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Delete activity?"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "This will permanently delete the activity. This action cannot be undone."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add Activity"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Delete section?"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "This will permanently delete the section and all its activities. This action cannot be undone."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sections reordered."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to reorder sections."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Activities reordered."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to reorder activities."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Section added."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to add section."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to add activity."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Activity deleted."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Section renamed."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to rename section."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Section deleted."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Section name…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add Section"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No activities yet"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Organise your program into sections and add activities for clients to complete."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Google Meet"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Custom URL"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Face to Face"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Session saved."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to save session."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add 1-on-1 Session"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Close"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Number of appointments is required."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Must be a whole number of at least 1."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Number of appointments"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Total sessions included in this program package."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Custom duration is required."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Must be at least 1 minute."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Duration"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Length of each individual session."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Custom"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "How clients will meet the coach for this session."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Meeting URL is required."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Meeting URL"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Link clients will use to join (Zoom, Teams, etc)."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Location is required."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Address or instructions for the in-person meeting."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Save Session"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Session removed."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to remove session."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Meeting"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Edit session"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Delete session"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Delete session?"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "This will remove the session from this program."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Deleting..."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No session added yet"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Define duration and number of appointments."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add Session"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "General"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Category"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Organize this program under a category."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Search categories…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Add more…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "No categories found."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Limit spots"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Max number of clients who can enrol. Use 0 for unlimited."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Pricing"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Price type"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Set whether this program is free or paid."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Users need to register to enrol in this program."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Price clients will pay to enrol."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "New Category"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Name is required."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "e.g. Strength Training"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Creating…"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Create"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Program updated."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to update program."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Checkout link copied to clipboard"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Failed to copy checkout link"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Copy Checkout Link"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Sends clients directly to checkout for this program"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Checkout link will be generated once the program is published"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Save Draft"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Update"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Publish"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Buy URL"
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Copy buy URL to clipboard."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Buy URL will be generated once the program is published."
+msgstr ""
+
+#: resources/build/admin.js:12
+msgid "Program Builder"
+msgstr ""

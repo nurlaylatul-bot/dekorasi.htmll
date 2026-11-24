@@ -1,0 +1,483 @@
+/*
+Theme Name: Nutri Coach
+Author: WPEverest
+Author URI: https://wpeverest.com/
+Description: Nutri Coach is a modern, fully customizable WordPress block theme designed for nutrition coaches and wellness professionals. Built with Full Site Editing capabilities and seamlessly integrated with the AllCoach plugin, it provides everything you need to showcase your coaching programs, offer free consultations, accept bookings and session appointments, and deliver structured client activities. Whether you're an independent coach, running a nutrition practice, or managing a wellness studio, Nutri Coach gives you a clean, professional online presence that's ready to grow with you.
+Requires at least: 6.9
+Tested up to: 7.0
+Requires PHP: 5.7
+Version: 1.0.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nutri-coach
+Tags: blog, full-site-editing, block-patterns, block-styles, custom-colors, custom-menu, custom-logo, editor-style, featured-images, one-column, two-columns, translation-ready, wide-blocks
+*/
+
+html,
+body,
+.wp-block-post-author__avatar,
+.wp-block-social-links,
+.wp-block-post-excerpt__excerpt,
+.wp-block-separator {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+
+/* Hero pattern */
+.hero-image-wrap {
+	position: relative;
+}
+
+.hero-stat-card {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: 2;
+	white-space: nowrap;
+}
+
+.hero-avatars {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.hero-avatars .wp-block-image {
+	flex-shrink: 0;
+	margin: 0;
+}
+
+.hero-avatars .wp-block-image:not(:last-child) {
+	margin-right: -8px;
+}
+
+.hero-avatars .wp-block-image img {
+	border-radius: 50%;
+	border: 2px solid var(--wp--preset--color--cream);
+	object-fit: cover;
+	display: block;
+}
+
+.hero-coach-img {
+	margin: 0 !important;
+}
+
+.hero-coach-img img {
+	border-radius: 16px;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+	display: block;
+}
+
+.hero-stat-icon {
+	background: color-mix(in oklab, var(--wp--preset--color--primary) 12%, transparent);
+	border-radius: 8px;
+	padding: 8px;
+	line-height: 1;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+.no-margin-top {
+	margin-top: 0 !important;
+}
+
+/* Box sizing
+--------------------------------------------- */
+/* Inherit box-sizing to more easily change it's value on a component level.
+@link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+html {
+	font-smooth: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+ }
+
+body {
+	font-smooth: auto;
+	font-smooth: inherit;
+	-webkit-font-smoothing: inherit;
+}
+
+.wp-site-blocks > .wp-block-group  {
+	margin-block-start: 0;
+}
+
+.wp-block-columns{
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+.wp-block-cover{
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+
+/* Instagram pattern */
+.instagram-grid .wp-block-column {
+	margin: 0;
+}
+
+.instagram-grid .wp-block-image {
+	margin: 0;
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.instagram-grid .wp-block-image img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+	display: block;
+}
+
+@media (max-width: 600px) {
+	.instagram-grid {
+		overflow-x: auto;
+		flex-wrap: nowrap !important;
+	}
+	.instagram-grid .wp-block-column {
+		min-width: 150px;
+	}
+}
+
+/* Blog Journal pattern */
+.journal-label-line {
+	width: 32px;
+	height: 2px;
+	background-color: var(--wp--preset--color--primary);
+	flex-shrink: 0;
+}
+
+.blog-separator {
+	background-color: var(--wp--preset--color--border);
+}
+
+.blog-feat-image-wrap {
+	position: relative;
+	overflow: hidden;
+	border-radius: 12px;
+}
+
+.blog-feat-image-wrap > .wp-block-image {
+	margin: 0;
+}
+
+.blog-feat-image-wrap > .wp-block-image img {
+	width: 100%;
+	height: 360px;
+	object-fit: cover;
+	display: block;
+	border-radius: 0;
+}
+
+.blog-feat-category-pill {
+	position: absolute !important;
+	top: 16px;
+	left: 16px;
+	z-index: 2;
+}
+
+.blog-feat-arrow {
+	position: absolute !important;
+	bottom: 16px;
+	right: 16px;
+	z-index: 2;
+	width: 40px !important;
+	height: 40px !important;
+}
+
+.blog-list-item {
+	border-top: 1px solid var(--wp--preset--color--border);
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.blog-list-item:last-child {
+	border-bottom: 1px solid var(--wp--preset--color--border);
+}
+
+.blog-list-num {
+	flex-shrink: 0;
+	min-width: 32px;
+}
+
+.blog-list-content {
+	flex: 1 !important;
+	min-width: 0;
+}
+
+.blog-list-thumb {
+	flex-shrink: 0;
+	width: 80px;
+}
+
+.blog-list-thumb .wp-block-image {
+	margin: 0;
+}
+
+.blog-list-thumb img {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 8px;
+	display: block;
+}
+
+/* Get Started CTA pattern */
+.cta-images-pair .wp-block-image {
+	flex: 1;
+	margin: 0;
+	overflow: hidden;
+	border-radius: 16px;
+}
+
+.cta-images-pair .wp-block-image img {
+	width: 100%;
+	height: 380px;
+	object-fit: cover;
+	display: block;
+}
+
+.cta-right-image .wp-block-image {
+	margin: 0;
+	overflow: hidden;
+	border-radius: 16px;
+}
+
+.cta-right-image .wp-block-image img {
+	width: 100%;
+	height: 380px;
+	object-fit: cover;
+	display: block;
+}
+
+/* Footer pattern */
+.footer-logo-circle img {
+	filter: brightness(0) invert(1);
+	display: block;
+}
+
+/* Navigation active state */
+.header-nav .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content,
+.header-nav .wp-block-navigation-item > .wp-block-navigation-item__content[aria-current="page"],
+.header-nav .wp-block-navigation-item.is-active > .wp-block-navigation-item__content {
+	color: var(--wp--preset--color--accent, var(--wp--preset--color--primary)) !important;
+	font-weight: 600 !important;
+}
+
+.header-nav .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content *,
+.header-nav .wp-block-navigation-item > .wp-block-navigation-item__content[aria-current="page"] *,
+.header-nav .wp-block-navigation-item.is-active > .wp-block-navigation-item__content * {
+	color: var(--wp--preset--color--accent, var(--wp--preset--color--primary)) !important;
+}
+
+@media (max-width: 600px) {
+	.site-header .wp-block-buttons {
+		display: none;
+	}
+}
+
+/* Skip link */
+.skip-link {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+	z-index: 999999;
+	text-decoration: none;
+}
+
+.skip-link:focus {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	background: var(--wp--preset--color--primary, #3A6BD8);
+	color: #fff;
+	padding: 0.75rem 1.5rem;
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+/* Focus indicators */
+a:focus,
+a:focus-visible,
+button:focus,
+button:focus-visible,
+.wp-block-button__link:focus,
+.wp-block-button__link:focus-visible,
+input:focus,
+input:focus-visible,
+textarea:focus,
+textarea:focus-visible,
+select:focus,
+select:focus-visible,
+[tabindex]:focus,
+[tabindex]:focus-visible {
+	outline: 2px solid var(--wp--preset--color--primary, #3A6BD8);
+	outline-offset: 2px;
+}
+
+
+/* ==========================================================================
+   Bakery cute layer — bentuk bulat, frosting, sprinkle, tombol "sticker"
+   ========================================================================== */
+@font-face {
+	font-family: "Nunito Sans Cute";
+	src: url("assets/fonts/Nunito_Sans/NunitoSans-Regular.ttf") format("truetype");
+	font-weight: 300 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Nunito Sans Cute";
+	src: url("assets/fonts/Nunito_Sans/NunitoSans-SemiBold.ttf") format("truetype");
+	font-weight: 600 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Font lebih ramah: badan teks Nunito Sans, judul Fraunces versi "soft & wonky" */
+body,
+.wp-block-button__link,
+.wp-block-navigation,
+input,
+textarea,
+select {
+	font-family: "Nunito Sans Cute", "Nunito Sans", var(--wp--preset--font-family--inter), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.has-fraunces-font-family {
+	font-variation-settings: "SOFT" 100, "WONK" 1;
+}
+
+/* Tombol gaya sticker: tebal di bawah, memantul saat di-hover */
+.wp-block-button__link {
+	box-shadow: 0 4px 0 var(--wp--preset--color--primary-dark);
+	transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+.wp-block-button__link:hover {
+	transform: translateY(-2px) rotate(-1deg);
+	box-shadow: 0 6px 0 var(--wp--preset--color--primary-dark);
+}
+
+.wp-block-button__link:active {
+	transform: translateY(3px);
+	box-shadow: 0 1px 0 var(--wp--preset--color--primary-dark);
+}
+
+.is-style-outline .wp-block-button__link,
+.wp-block-button__link.has-background-color {
+	box-shadow: none;
+}
+
+/* Kartu dan gambar lebih membulat */
+.wp-block-group.has-background[style*="border-top-left-radius:8px"] {
+	border-radius: 24px !important;
+	transition: transform 0.2s ease;
+}
+
+.wp-block-group.has-background[style*="border-top-left-radius:8px"]:hover {
+	transform: translateY(-4px) rotate(-0.6deg);
+}
+
+.wp-block-cover[style*="border-radius:16px"],
+.wp-block-image:not(.is-resized) img {
+	border-radius: 28px;
+}
+
+.hero-avatars .wp-block-image img {
+	border-radius: 50% !important;
+}
+
+/* Foto hero berbentuk jendela lengkung, berbingkai putih ala sticker */
+.hero-coach-img img {
+	border: 8px solid #fff;
+	border-radius: 320px 320px 32px 32px !important;
+	box-shadow: 14px 16px 0 rgba(58, 107, 216, 0.22);
+}
+
+.hero-stat-card {
+	border-radius: 20px;
+}
+
+/* Section pink & biru: titik-titik polkadot halus + sprinkle warna-warni */
+.alignfull.has-blue-soft-background-color {
+	background-image: radial-gradient(rgba(255, 255, 255, 0.75) 2px, transparent 2.5px);
+	background-size: 30px 30px;
+	--cute-scallop: var(--wp--preset--color--blue-soft);
+}
+
+.alignfull.has-pink-soft-background-color {
+	background-image:
+		radial-gradient(circle at 8% 22%, rgba(58, 107, 216, 0.30) 0 4px, transparent 5px),
+		radial-gradient(circle at 92% 14%, rgba(217, 76, 134, 0.30) 0 5px, transparent 6px),
+		radial-gradient(circle at 18% 82%, rgba(217, 76, 134, 0.26) 0 3px, transparent 4px),
+		radial-gradient(circle at 78% 86%, rgba(58, 107, 216, 0.26) 0 4px, transparent 5px),
+		radial-gradient(circle at 50% 8%, rgba(255, 255, 255, 0.9) 0 3px, transparent 4px),
+		radial-gradient(rgba(255, 255, 255, 0.6) 2px, transparent 2.5px);
+	background-size: auto, auto, auto, auto, auto, 30px 30px;
+	--cute-scallop: var(--wp--preset--color--pink-soft);
+}
+
+.alignfull.has-primary-dark-background-color {
+	--cute-scallop: var(--wp--preset--color--primary-dark);
+}
+
+/* Tepi bawah section bergelombang seperti frosting kue */
+.alignfull.has-pink-soft-background-color,
+.alignfull.has-blue-soft-background-color,
+.alignfull.has-primary-dark-background-color {
+	position: relative;
+}
+
+.alignfull.has-pink-soft-background-color::after,
+.alignfull.has-blue-soft-background-color::after,
+.alignfull.has-primary-dark-background-color::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: calc(100% - 1px);
+	height: 14px;
+	z-index: 2;
+	pointer-events: none;
+	background: radial-gradient(circle at 50% 0, var(--cute-scallop) 0 11.5px, transparent 12px) 0 0 / 24px 14px repeat-x;
+}
+
+/* Gerak halus (dimatikan jika perangkat meminta minim animasi) */
+@keyframes cute-float {
+	0%, 100% { transform: translateY(0); }
+	50% { transform: translateY(-8px); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.hero-stat-card {
+		animation: cute-float 4s ease-in-out infinite;
+	}
+}

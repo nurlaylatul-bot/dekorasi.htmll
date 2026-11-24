@@ -1,0 +1,34 @@
+== Changelog ==
+
+= 1.1.1 - 08-05-2026 =
+* Feature     - PayPal payments.
+* Feature     - Analytics dashboard.
+* Feature     - Add-ons page to enable and manage add-ons.
+* Feature     - GDPR tools - privacy policy consent at checkout, plus support for WordPress' personal data export and erase requests.
+* Feature     - Forgot password in the client portal.
+* Feature     - Styling settings tab for primary and button colors.
+* Feature     - Custom URL and face-to-face meeting types.
+* Enhancement - New client and pending order counts now show as badges on the admin menu.
+* Enhancement - Reworked empty states across the admin screens.
+* Enhancement - More reliable background processing for scheduled emails and reminders.
+* Enhancement - Pending Activities section added to the client dashboard.
+* Enhancement - Improved account portal typography and spacing.
+* Fix         - Program activities and content are now gated on a confirmed order.
+* Fix         - Checkout confirmation now shows the client name and program title, and matches the order status.
+* Fix         - Corrected date-only timezone handling for bookings.
+* Fix         - Resolved activity editor crashes caused by duplicate editor extensions.
+* Fix         - Session dialog is now scrollable on short viewports.
+* Fix         - Consistent completed badge color and correct cancelled order label.
+* Fix         - Font assets are now included in the release package.
+
+= 1.0.3 - 06-11-2026 =
+Fix - Resolved an issue where some component styles were not applied due to incorrectly compiled nested CSS selectors.
+
+= 1.0.2 - 06-11-2026 =
+* Enhancement - Security hardening.
+
+= 1.0.1 - 06-10-2026 =
+* Fix - Client portal sub-pages (Programs, Appointments, and Profile) now route correctly.
+
+= 1.0.0 - 06-04-2026 =
+* Initial release.
